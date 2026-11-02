@@ -1,0 +1,144 @@
+# CIRCALL project: configuration, samplesheets and general metadata stay trackable.
+# Ignore generated payloads, runtime state, installed tools and credentials.
+# Previously committed historical provenance remains tracked; ignore rules do
+# not remove files from Git. Keep the explicit archive/provenance exceptions.
+
+
+# Nextflow execution state and reports
+.nextflow/
+.nextflow.log*
+/work/
+/results/
+/output/
+/outputs/
+/publish/
+/reports/
+/timeline*.html
+/report*.html
+/trace*.txt
+/dag*.html
+/dag*.dot
+slurm-*.out
+
+# Containers and caches
+.apptainer/
+.singularity/
+apptainer/
+singularity/
+*.sif
+*.simg
+
+# Raw sequencing data and temporary inputs
+/scratch/
+/tmp/
+/raw/
+/data/
+/inputs/
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+*.bam
+*.sam
+*.bai
+*.cram
+*.crai
+
+# Methylation output files
+*.bedGraph
+*.cov
+*.CX_report.txt
+*.M-bias.txt
+*.splitting_report.txt
+*.deduplication_report.txt
+
+# Editor and interpreter caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+*~
+*.swp
+
+# Local tools and credentials
+/.codex/
+/.agents/
+/.aws/
+/.vscode/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Workflow-generated bundles
+/workflows/**/outputs/
+/workflows/epidish/outputs
+/workflows/**/results
+/workflows/**/intermediates/
+/workflows/**/matrices/
+/workflows/**/uxm_inputs/
+
+# Large reference and methylation payloads
+*.pat
+*.pat.gz
+*.pat.gz.part
+*.pat.gz.csi.part
+*.pat.gz.csi
+*.csi
+*.tbi
+*.beta
+*.lbeta
+*.RData
+*.rds
+*.fa
+*.fasta
+*.fa.gz
+*.fasta.gz
+*.bt2
+*.bt2l
+*.cov.gz
+*.bedGraph.gz
+*.CpG_report.txt
+*.CpG_report.txt.gz
+*.CX_report.txt.gz
+*.bismark.cov.gz
+
+# Retained small annotation object
+!/archive/downstream/dmrichr/historical/reference/hg38.cpg_annotations.rds
+
+# Historical generated payloads
+/archive/downstream/layout_residuals_20260914/
+
+# UXM exports: retain small provenance records
+/workflows/uxm/pannel_cpg_list/**
+!/workflows/uxm/pannel_cpg_list/**/
+!/workflows/uxm/pannel_cpg_list/**/provenance.json
+!/workflows/uxm/pannel_cpg_list/**/validation.json
+
+# Existing specific metadata exclusions
+/metadata/copy_number_profiles.tsv
+/metadata/copy_number_segments.tsv
+
+# Historical audit payloads
+/docs/audits/2026-10-06_10-02-deconflow-reference-provenance-v1/*.log
+/docs/audits/2026-10-06_10-07-deconflow-heart-provenance-v2/*.log
+/docs/audits/2026-10-06_10-07-deconflow-heart-provenance-v2/*.uxm.bed.gz
+
+# Runtime logs and external installations
+**/logs/
+**/runs/*.out
+**/runs/*.err
+**/runs/*.log
+/archive/**/outputs/
+/archive/**/results/
+/archive/**/runs/legacy_layout/
+software
+/workflows/epidish/exports
+
+# Future execution state; existing tracked provenance remains
+/runs/*/
+/workflows/**/runs/
