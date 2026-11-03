@@ -1,0 +1,2 @@
+Bootstrap: docker
+From: quay.io/biocontainers/bioconductor-dmrcate@sha256:087f3de6dc74dfef71256099acb6213618507cba92f8e9e79b622840bfb0f7f5

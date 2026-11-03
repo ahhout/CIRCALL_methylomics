@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "recorded_utc": "2026-11-03T08:26:56.607657+00:00",
+  "run_id": "2026-11-02_14-32-emseq-integrated-layout-smoke-v2",
+  "job_id": 6251849,
+  "status": "completed",
+  "exit_code": "0:0",
+  "scheduler_elapsed": "01:37:14",
+  "scheduler_started_utc": "2026-11-02T14:36:56Z",
+  "scheduler_completed_utc": "2026-11-02T16:14:10Z",
+  "started_utc": "2026-11-02T14:37:16.692375+00:00",
+  "completed_utc": "2026-11-02T16:14:10.047332+00:00",
+  "pairs": 10000,
+  "selection": "First 10000 paired records from the first production samplesheet entry; original identifier retained in frozen submissions",
+  "reference": "Production exact wgbstools hg38 plus lambda and pUC19",
+  "pipeline_release": "4.2.0",
+  "pipeline_commit": "c6a960d78ce8316e26a42ed4c0291408114695ea",
+  "project_commit": "7e88608ac65ab491fbbb728844cfc10461de06c7",
+  "resume": false,
+  "session_id": "c9a004a5-2378-4807-93e6-00b3e3c9da1e",
+  "output": "/path/to/hpc-scratch/nextflow/nf-core-methylseq/results/bulk/2026-11-02_14-32-emseq-integrated-layout-smoke-v2",
+  "work_root": "/path/to/hpc-scratch/tmp/em_seq/work_emseq_integrated",
+  "params": "config/params.emseq.integrated.yml",
+  "config": "config/nextflow.config",
+  "resource_config": "config/methylseq_smoke_resources.config",
+  "samplesheet": "/path/to/hpc-scratch/nextflow/nf-core-methylseq/results/bulk/2026-11-02_14-32-emseq-integrated-layout-smoke-v2/pipeline_info/submitted/samplesheet.csv",
+  "ownership_status": "completed",
+  "completed_tasks": 12,
+  "task_states": {
+    "COMPLETED": 12
+  },
+  "task_exit_codes": {
+    "0": 12
+  },
+  "evidence": {
+    "pipeline_info/submitted/run_manifest.json": {
+      "bytes": 1856,
+      "sha256": "c0a18882aee0fe2a9b1cb2a224b9a4c623a7ff2a34e629740ec08be5c0c8f234"
+    },
+    "pipeline_info/submitted/attempts/6251849-f807a2b87bbc/ended.json": {
+      "bytes": 159,
+      "sha256": "c902eb789b060d4eb89c27313be3ed886e9da146002d9fa1046632bb916c4203"
+    },
+    "pipeline_info/submitted/attempts/6251849-f807a2b87bbc/trace.txt": {
+      "bytes": 2218,
+      "sha256": "b13a5fd0ab0ee110726e26e727ea72337032bea9fd4754abc0fc4bd2be6d7df2"
+    },
+    "pipeline_info/submitted/attempts/6251849-f807a2b87bbc/control-qc.json": {
+      "bytes": 165,
+      "sha256": "0b0910758b88ab21fb135533a3cd066c5e3ee2d0b88f94cc76937e189d3205fd"
+    },
+    "control_qc/control_qc.tsv": {
+      "bytes": 248,
+      "sha256": "6806b067632ff35efd388841d7a4378e5fb29769381d25fbf9108c23d06246ca"
+    }
+  },
+  "reports_present": [
+    "multiqc/bismark/multiqc_report.html",
+    "control_qc/control_qc.tsv"
+  ],
+  "input_snapshot_hashes": {
+    "methylseq_paths.json": "b00ba55c6ce1a73b0478deb054e0d90762e0576f1b2a07dad88e91ca27d70c2b",
+    "methylseq_pipeline.json": "f679bfc39ef026bc6d258d18f3ccaacff9646b6759078a0de49538fd8c142871",
+    "nextflow.config": "43215bcde48679b9ecb3cf8b1da8c78d0ea8be9b65b89e4eed87b54844562ded",
+    "params.emseq.integrated.yml": "74810ca2e700f3903bd5c933eea94d5f8b2e29a7ba9109af7d26733e3bda444c",
+    "production_samplesheet.csv": "b813e9e497dc22f31123c1b8756c8515d23582cc59ceab5c90ed645664960321",
+    "reference_manifest.tsv": "23154f797fd49f9b2917b741cde83f3c43f4d4feae1460e8e92d6d43d9ae0963",
+    "run_methylseq_integrated.sh": "628370de6dfaa458905f628a1c205b97f121a4e737ce31d8bfabfc178e3a180b",
+    "samplesheet.csv": "c2642e1691e63b494cc339cf53fc40110939cfc6440fe58c04c4e7678be5a22b",
+    "smoke_inputs.json": "43e6f664ebaab2590c68fc93db8ccce4bab99517be7a26fd515dbef3fd7b7c7a",
+    "smoke_resources.config": "a8551342c60a97d6921ea251e8fd936b801bdceb7d2468920c602d81aee809af"
+  },
+  "limitations": [
+    "Bounded execution validation only; not full-cohort production validation or biological QC acceptance",
+    "Historical resume and cache reuse across the old/new layouts remain unverified",
+    "No production scientific setting changed; no new cohort analysis or cleanup performed"
+  ],
+  "failed_first_attempt": {
+    "job_id": 6251800,
+    "cause": "Nextflow interpreted an empty configuration argument as true",
+    "retained": true,
+    "retry": "Fresh output name and session; no resume"
+  }
+}

@@ -1,0 +1,11 @@
+name: epidishr
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base=4.5
+  - bioconductor-epidish=2.26.0
+  - r-data.table
+  - r-ggplot2
+  - r-jsonlite
+

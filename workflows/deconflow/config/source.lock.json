@@ -1,0 +1,39 @@
+{
+  "version": "2.5.0",
+  "commit": "4195f65ad986ea5a68129d2da5b2b1effed25bc8",
+  "archive_url": "https://codeload.github.com/VIBTOBIlab/DecoNFlow/tar.gz/4195f65ad986ea5a68129d2da5b2b1effed25bc8",
+  "archive_sha256": "94cc28447726f116e62ffeba6b209d300083c652db6f47159475367f29225435",
+  "excluded_archive_links": [
+    {
+      "path": "DecoNFlow-4195f65ad986ea5a68129d2da5b2b1effed25bc8/assets/genome/default",
+      "target": "hg19"
+    },
+    {
+      "path": "DecoNFlow-4195f65ad986ea5a68129d2da5b2b1effed25bc8/assets/genome/hg19/annotations.bed.gz",
+      "target": "/opt/wgbstools/supplemental/hg19.annotations.bed.gz"
+    },
+    {
+      "path": "DecoNFlow-4195f65ad986ea5a68129d2da5b2b1effed25bc8/assets/genome/hg19/annotations.bed.gz.tbi",
+      "target": "/opt/wgbstools/supplemental/hg19.annotations.bed.gz.tbi"
+    },
+    {
+      "path": "DecoNFlow-4195f65ad986ea5a68129d2da5b2b1effed25bc8/assets/genome/hg19/genome.fa",
+      "target": "/Users/edoardogiuili/Library/CloudStorage/OneDrive-UGent/Projects/Pipelines/DecoNFlow/work/e5/05aa5d2319f9e004260fb9d6a11d87/default/hg19_chr1_1M.fa"
+    },
+    {
+      "path": "DecoNFlow-4195f65ad986ea5a68129d2da5b2b1effed25bc8/assets/genome/hg19/genome.fa.fai",
+      "target": "/Users/edoardogiuili/Library/CloudStorage/OneDrive-UGent/Projects/Pipelines/DecoNFlow/work/e5/05aa5d2319f9e004260fb9d6a11d87/default/hg19_chr1_1M.fa.fai"
+    },
+    {
+      "path": "DecoNFlow-4195f65ad986ea5a68129d2da5b2b1effed25bc8/assets/genome/hg19/ilmn2CpG.tsv.gz",
+      "target": "/opt/wgbstools/supplemental/hg19.ilmn2CpG.tsv.gz"
+    },
+    {
+      "path": "DecoNFlow-4195f65ad986ea5a68129d2da5b2b1effed25bc8/assets/genome/hg19/rev.CpG.bed.gz",
+      "target": "/opt/wgbstools/references/hg19/CpG.bed.gz"
+    }
+  ],
+  "supplement_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-022-05580-6/MediaObjects/41586_2022_5580_MOESM4_ESM.xlsx",
+  "supplement_sha256": "b29ff29097f6bc990c81516c5b1fa0b461bff257dbe57c78dca6a622e88a5e7a",
+  "retrieved_utc": "2026-10-05T14:30:30.901433+00:00"
+}

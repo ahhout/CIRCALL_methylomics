@@ -1,0 +1,11 @@
+{
+  "genome": "hg38",
+  "uxm": true,
+  "epidish": false,
+  "benchmark": false,
+  "DMRselection": null,
+  "input": null,
+  "save_intermeds": true,
+  "bulk_min_counts": 0,
+  "bulk_min_cpgs": 0
+}

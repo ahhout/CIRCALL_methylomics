@@ -1,0 +1,29 @@
+# Production EM-seq parameters for competitive alignment to GRCh38 and controls.
+
+input: /path/to/hpc-home/analysis/CIRCALL_methylomics/samplesheets/samplesheet.csv
+
+fasta: /path/to/hpc-home/analysis/CIRCALL_methylomics/references/emseq_hg38_lambda_puc19/BismarkIndex/genome.fa
+bismark_index: /path/to/hpc-home/analysis/CIRCALL_methylomics/references/emseq_hg38_lambda_puc19/BismarkIndex
+igenomes_ignore: true
+
+aligner: bismark
+em_seq: true
+
+# Fixed end-clipping is explicit and independently configurable for each read
+# and end. Keep skip_trimming_presets enabled; otherwise em_seq silently applies
+# the nf-core preset of 10 bp from both ends of both reads when a value is zero.
+# Empirically selected from the eight-sample comparison of the zero-clipping
+# discovery run and the 10-bp EM-seq preset run. The asymmetric values remove
+# the strongest observed end bias while retaining more usable sequence.
+skip_trimming_presets: true
+clip_r1: 8
+clip_r2: 3
+three_prime_clip_r1: 3
+three_prime_clip_r2: 10
+
+# Emit genome-wide per-cytosine calls for site-level downstream analyses.
+cytosine_report: true
+# Include BAM-level mapping and coverage metrics in the production QC outputs.
+run_qualimap: true
+# Skip library-complexity extrapolation because it is not used downstream.
+run_preseq: false

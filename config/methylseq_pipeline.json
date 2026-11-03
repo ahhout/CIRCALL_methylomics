@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "pipeline": "nf-core/methylseq",
+  "release": "4.2.0",
+  "commit": "c6a960d78ce8316e26a42ed4c0291408114695ea",
+  "upstream_release_commit": "5aa56467a85a5e2d6795ea72dfa5a5f0c9babc23",
+  "fork_baseline_commit": "b6aa88ef5399cb2992f12d8072e2c8fedf39d003"
+}

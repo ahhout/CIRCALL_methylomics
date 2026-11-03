@@ -1,0 +1,15 @@
+name: nextflow
+# Use the existing repository environment; do not create another Conda environment.
+environment_source: ../../../environment.yml
+nextflow: 25.10.2
+apptainer_module: containers/apptainer/1.3.6
+upstream_version: 2.5.0
+upstream_commit: 4195f65ad986ea5a68129d2da5b2b1effed25bc8
+nextflow_plugin: nf-schema@2.2.0
+images_lock: config/images.lock.json
+reference_tools: existing-wgbstools-0.3.0
+reference_counter: complete-PAT-stream-C++17
+reference_counter_system_requirements: [g++, gzip]
+reference_counter_provenance: compiler-version-and-source-and-binary-checksums-per-run
+python_dependencies: [numpy, pandas, matplotlib]
+reference_metadata_reader: python-standard-library-zipfile-and-ElementTree

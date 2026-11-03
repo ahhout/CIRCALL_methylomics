@@ -1,0 +1,26 @@
+{
+  "uxm": {
+    "tag": "egiuili/uxm:v1",
+    "index_digest": "sha256:60ce54d9b6f3ace60fa21bb4f90de12f727ea978ac8854a0aef345b572f47f44",
+    "platform": "linux/amd64",
+    "image": "docker://egiuili/uxm@sha256:2d01e6d3e9fd9d3d2d929d373990737de758b34e601149330d061a06038c9be3"
+  },
+  "epidish": {
+    "tag": "egiuili/epidish:v1",
+    "index_digest": "sha256:5c620d9727ab00ec6f23c513bcaa8ff35c067c075d829ff09e0c0a36bc542c8c",
+    "platform": "linux/amd64",
+    "image": "docker://egiuili/epidish@sha256:e690e5f7f9b387d6a56bb9f4d8a3923f8a86f2760eb8207fa589c471f5b45c2d"
+  },
+  "preprocessing": {
+    "tag": "egiuili/bedtools_preprocessing:v2",
+    "index_digest": "sha256:96e852765c705ceb395af7b7481dadd9e26687d70715be3cb02a9a63ed1436cb",
+    "platform": "linux/amd64",
+    "image": "docker://egiuili/bedtools_preprocessing@sha256:7dce4352391e986cbb06fa7ed69b5a7a0aad2670a1caafe41219fc0cc9fc1787"
+  },
+  "python": {
+    "tag": "egiuili/python3-3.9.16:v1",
+    "index_digest": "sha256:531f9abf35be4b6a754272d1cd76c2abf7ed6958617ff349e606b12e65064340",
+    "platform": "linux/amd64",
+    "image": "docker://egiuili/python3-3.9.16@sha256:9f8099c2dbf5247b4b3c7a3be264d05be90d33fca1b60becae9cdc43b5646a25"
+  }
+}

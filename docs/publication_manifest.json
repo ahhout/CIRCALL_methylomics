@@ -1,0 +1,1370 @@
+{
+  "schema": 1,
+  "scope": "Public supported-source snapshot; no private local Git history or data payload",
+  "local_checkpoint_before_documentation": "59a3d651783e6170272469d80eec58e08f1ba41f",
+  "existing_remote_parent": "0778db5f16aeb4e5d0b9d3c99fda10c4cb67a929",
+  "unchanged_previously_published_tables": {
+    "metadata/metadata.tsv": "d098a22c8c793c1f2e92e3dbf64a82988328279b",
+    "samplesheets/samplesheet.csv": "529c0d3b36e178bcfc5a90f92c97f609fb30c3e0"
+  },
+  "excluded_categories": [
+    "Private local Git history",
+    "Archives and imported historical audit trees",
+    "Runtime/run/session/log state",
+    "Individual-patient result summaries and cohort configuration tables",
+    "Unapproved or retired metadata/samplesheet tables",
+    "Installed tools, containers, sequencing/reference/result payloads and caches"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "bytes": 2637,
+      "sha256": "a4bfb1e3c96cf39a1c9eb72c90f365ac914f83d9abcb80a3eec55f8589173bcf",
+      "git_blob_sha": "20e60e267ccec5bd4561f4c582411a4d4d836f29",
+      "local_source_sha256": "a4bfb1e3c96cf39a1c9eb72c90f365ac914f83d9abcb80a3eec55f8589173bcf"
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "bytes": 13209,
+      "sha256": "de0a9f72aec67a38a882b7b5f1458e26019bc24ea8160992bffa5d40157d283a",
+      "git_blob_sha": "88968ed7ccb020ae861d53857584b3bccfaa1ae5",
+      "local_source_sha256": "7d971fd36f1af95c494cec30c141a197bc65e2df822151e07149c4eea90b7ce4"
+    },
+    {
+      "path": "PROJECT.md",
+      "mode": "100644",
+      "bytes": 22769,
+      "sha256": "7e4485b756a2b706905a95a28a4301332a0ab8402ce08f63392dcdaf8403d1de",
+      "git_blob_sha": "fef823c61b2b7c8cb12c212d9f03e5471c7d0ce0",
+      "local_source_sha256": "60a1ceeac944b5f283a75cd8b5f818510d436362adc717f798facd19f5078d51"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "bytes": 4383,
+      "sha256": "3748f07e9762c072910668d2db9c66877371be5549d3777a5c36ee3c81c243c4",
+      "git_blob_sha": "9790fc52d1c0cda417323ee4bffc19bf007ddc92",
+      "local_source_sha256": "5f9669efc5f1bbceb551542fe897c84aa709c410f36c427f130cf6bce0ba04bb"
+    },
+    {
+      "path": "RESULTS.md",
+      "mode": "100644",
+      "bytes": 9073,
+      "sha256": "f8121b65e5743c9daa8f5a40e8ea311fcca79124f8079aad17fed5c332993c82",
+      "git_blob_sha": "eb7dbce1e67b98ed3a9b95b70af0e87051102972",
+      "local_source_sha256": "5225ca4bb320ffa6e5adaf2f756962af24c2cff924129f336654d012a965ca54"
+    },
+    {
+      "path": "config/methylseq_cache_session.json",
+      "mode": "100644",
+      "bytes": 145,
+      "sha256": "7335af10aaf0d45f2f8a9d3bb537b191c95ccf808c427823e808f48cfb8f08c6",
+      "git_blob_sha": "86adc030bfda980033cefeeb1766f3c498ca11af",
+      "local_source_sha256": "db34951525ce339c7265787f22da7cc87210aef17dce0b5d0a35121ccbdc956d"
+    },
+    {
+      "path": "config/methylseq_paths.json",
+      "mode": "100644",
+      "bytes": 587,
+      "sha256": "998aeb85cff919bcb84933ad16d8e8d25a618e47b97435e209a73923643db9fb",
+      "git_blob_sha": "5cff9dd29951e14507eacdd0596a27e890d47d15",
+      "local_source_sha256": "b00ba55c6ce1a73b0478deb054e0d90762e0576f1b2a07dad88e91ca27d70c2b"
+    },
+    {
+      "path": "config/methylseq_pipeline.json",
+      "mode": "100644",
+      "bytes": 274,
+      "sha256": "f679bfc39ef026bc6d258d18f3ccaacff9646b6759078a0de49538fd8c142871",
+      "git_blob_sha": "85a27d33a845032dd457b2664c5b4d2199f8444b",
+      "local_source_sha256": "f679bfc39ef026bc6d258d18f3ccaacff9646b6759078a0de49538fd8c142871"
+    },
+    {
+      "path": "config/methylseq_smoke_resources.config",
+      "mode": "100644",
+      "bytes": 562,
+      "sha256": "a8551342c60a97d6921ea251e8fd936b801bdceb7d2468920c602d81aee809af",
+      "git_blob_sha": "73b45df1d138626b6651fa822e776a3464c2c569",
+      "local_source_sha256": "a8551342c60a97d6921ea251e8fd936b801bdceb7d2468920c602d81aee809af"
+    },
+    {
+      "path": "config/nextflow.config",
+      "mode": "100644",
+      "bytes": 1510,
+      "sha256": "bba0e3e3f586238f0c18f68a6073090b607a8b102c64599a115f4860ef0d1385",
+      "git_blob_sha": "0997b2c078ec3e3dedcc4e56749192df337ec4ae",
+      "local_source_sha256": "43215bcde48679b9ecb3cf8b1da8c78d0ea8be9b65b89e4eed87b54844562ded"
+    },
+    {
+      "path": "config/params.emseq.integrated.yml",
+      "mode": "100644",
+      "bytes": 1294,
+      "sha256": "66b581b8fe42aa2b8047c507580cf00836120dbd80a03fea84247462662fbf66",
+      "git_blob_sha": "dee549d44ecdd1378cc5a85bf1b02e0db2a4a44e",
+      "local_source_sha256": "74810ca2e700f3903bd5c933eea94d5f8b2e29a7ba9109af7d26733e3bda444c"
+    },
+    {
+      "path": "docs/methylseq_execution.md",
+      "mode": "100644",
+      "bytes": 7396,
+      "sha256": "e714a983ded511303132c127e9e97247bb7f4b47c8297a5f4e34bcd2a01df7d2",
+      "git_blob_sha": "dd2dc2f7469e4ad04d2ed29bc31d1b11b7ba2a0d",
+      "local_source_sha256": "6da1cc7b4e28b5456f245d06131936e3b76063490163ccb303ce6629a3b7103b"
+    },
+    {
+      "path": "docs/methylseq_smoke_validation.json",
+      "mode": "100644",
+      "bytes": 4098,
+      "sha256": "7bce43e6aa2e45884abec39634b952602a525e2a478c694c4f516ff7a3af0bd0",
+      "git_blob_sha": "f07ad7985d50c079e9290921a0ee1bb0e9758f56",
+      "local_source_sha256": "5b18a873a79c219184c1e413bd8cc03db79e94981bb1d9ceb54b3084ff0b3f00"
+    },
+    {
+      "path": "docs/methylseq_smoke_validation.md",
+      "mode": "100644",
+      "bytes": 2918,
+      "sha256": "5baf46ee800ec337eb321eecc0faecb29bc234756173d2772880cf24126ee3a1",
+      "git_blob_sha": "cae5aadbeb788d9c9f1756ccfcc912f5880e3d3c",
+      "local_source_sha256": "8cc4742f2a84360bb690865082199358e08860728a4ab55aaf5a54a41cf103cc"
+    },
+    {
+      "path": "docs/publication.md",
+      "mode": "100644",
+      "bytes": 3010,
+      "sha256": "563b52b45516747af8c6592bd0e7a6e910d9ee8f6bda535d88f3c152be339c29",
+      "git_blob_sha": "c7aa69203cb4e5e8fa2477afce1195f87b37236c",
+      "local_source_sha256": "563b52b45516747af8c6592bd0e7a6e910d9ee8f6bda535d88f3c152be339c29"
+    },
+    {
+      "path": "docs/reorganization/README.md",
+      "mode": "100644",
+      "bytes": 4142,
+      "sha256": "84265ab458f5e1f4f569f854fec096d169064d49247bb7b2ca877e6f61a099fc",
+      "git_blob_sha": "e1c819da68efc17045677a393ec0fcad08ae2537",
+      "local_source_sha256": "84265ab458f5e1f4f569f854fec096d169064d49247bb7b2ca877e6f61a099fc"
+    },
+    {
+      "path": "docs/reorganization/downstream_entrypoints.md",
+      "mode": "100644",
+      "bytes": 5606,
+      "sha256": "17d29a9f412abb3dfa163bc5732d7eb30d36b558d9fa5270b855fcd080fe6169",
+      "git_blob_sha": "e50bb13814b5b0fbb061e11cd7d5ac1f88bb07c0",
+      "local_source_sha256": "17d29a9f412abb3dfa163bc5732d7eb30d36b558d9fa5270b855fcd080fe6169"
+    },
+    {
+      "path": "environment.yml",
+      "mode": "100644",
+      "bytes": 324,
+      "sha256": "5130e644713942be5fdb9f8abf72b4cbe3a409d70e758ea76a5d0c2d7fa5a2ee",
+      "git_blob_sha": "a0dcf502c1e91b52ebc21341f49ccc6552214785",
+      "local_source_sha256": "5130e644713942be5fdb9f8abf72b4cbe3a409d70e758ea76a5d0c2d7fa5a2ee"
+    },
+    {
+      "path": "references/README.md",
+      "mode": "100644",
+      "bytes": 11056,
+      "sha256": "21abc022fb4d94c4aa86ce11c22dd74396087d9d11fe6a84d580d91ec73fba11",
+      "git_blob_sha": "4cfadb2c0e8687cc559e34e11a6c42f229c17a7e",
+      "local_source_sha256": "fb41843f6cd4b97d53a6bd8d7d29fc2f06929ee5f8a0a680a478c5559c8fc0f2"
+    },
+    {
+      "path": "references/emseq_hg38_lambda_puc19",
+      "mode": "120000",
+      "bytes": 89,
+      "sha256": "bacd9372a409fea08c6006cb275fc2f1a6b4b14a4c1269aa1e4a666545b07772",
+      "git_blob_sha": "4f390824687cda8bc101c74e09aac9454e8d5049",
+      "local_source_sha256": "c8d4b94b39706657aeed2c3b8225dc7e27cc31a1e2971c801933b0ddc3396c62"
+    },
+    {
+      "path": "references/legacy_igenomes_hg38_lambda_puc19",
+      "mode": "120000",
+      "bytes": 78,
+      "sha256": "9c246712710479c726be2602402f33aaa96a57d350472d4a3c5af1014d7ef673",
+      "git_blob_sha": "71abe6869678dad2c25da60dc779de3371d2b8f7",
+      "local_source_sha256": "7b4c4977db648fb9836a54fa97c050810e038be528dd2ec29a74fff6b4da54a2"
+    },
+    {
+      "path": "references/scripts/download_uxm_atlas_pat.py",
+      "mode": "100755",
+      "bytes": 10545,
+      "sha256": "ef09496b6cbc98c8be67dbe180a523744c6d377df2067cc1e57937ecb065947d",
+      "git_blob_sha": "638822972e2003ddf3bf833ef337afdb7e7ae3df",
+      "local_source_sha256": "7957bd642a5fef0edfcfcac0c538503bbeefae0748f6201ed4e5715850b2a963"
+    },
+    {
+      "path": "references/scripts/run_download_uxm_atlas_pat.sh",
+      "mode": "100755",
+      "bytes": 2434,
+      "sha256": "8b40735ac4bb0f2d2c8320ed769ed212707fc26946ff00e73622d07085adc328",
+      "git_blob_sha": "51f3fb14171318775a1ff21ca99a89cd4d918f74",
+      "local_source_sha256": "24df7fce61a24a31c50a026acd3a6d140031dbe8d3bea59ba1275d14cb5d3ca8"
+    },
+    {
+      "path": "references/uxm_atlas_pat/download_manifest.tsv",
+      "mode": "100644",
+      "bytes": 92033,
+      "sha256": "d94a77b24ead8ab210ee835a8c5920e8d0411df2553bf5b8277c5fcbc23cef2f",
+      "git_blob_sha": "37e24d10b1e3427f3322cd6651a91c31f9dd03c0",
+      "local_source_sha256": "d94a77b24ead8ab210ee835a8c5920e8d0411df2553bf5b8277c5fcbc23cef2f"
+    },
+    {
+      "path": "references/uxm_atlas_pat/download_summary.json",
+      "mode": "100644",
+      "bytes": 413,
+      "sha256": "bef5160391f61f701501d2d3c5f3c8cfb70202b9f1544262f58eda47ea12d2aa",
+      "git_blob_sha": "691eed7476f0e1bcef1a6f1f61c4222f4355c398",
+      "local_source_sha256": "204d41b1c48496c6c30acf7c46c77312f0c4a13d7166a8a0cb4adbdb53e51099"
+    },
+    {
+      "path": "references/wgbs_hg38_lambda",
+      "mode": "120000",
+      "bytes": 84,
+      "sha256": "bfbea0e04808b93a755df72faedefe03c2b6d58c940e54619c2d9ccafe482584",
+      "git_blob_sha": "f7799f75705696d01d97f0d2804c27e426388509",
+      "local_source_sha256": "cab4321b03d21d2356271161527033f9151420cf0e5388713e715fb0f4aa0840"
+    },
+    {
+      "path": "references/wgbstools_hg38",
+      "mode": "120000",
+      "bytes": 71,
+      "sha256": "e314da0f90410c6a0cedb5f2e85fa906b4ecf94214ceff48caa7319db10a0502",
+      "git_blob_sha": "ac63937a9747775253f3ce251233c9af67320499",
+      "local_source_sha256": "1cb6d79e9c9f360e49150e3b6821b641ff216baa31c8843106edcc13d5cc04a6"
+    },
+    {
+      "path": "run_methylseq_integrated.sh",
+      "mode": "100755",
+      "bytes": 1689,
+      "sha256": "4d465267002c8bc78bdd36c723b3828512006c1f7f20249d2d37deb86d7a0e7d",
+      "git_blob_sha": "0fafe138fe24025f8c93b0091bb29152280bc5eb",
+      "local_source_sha256": "628370de6dfaa458905f628a1c205b97f121a4e737ce31d8bfabfc178e3a180b"
+    },
+    {
+      "path": "scripts/apply_methylseq_cache_batches.py",
+      "mode": "100644",
+      "bytes": 9959,
+      "sha256": "407becd43194ea075bc45f727c7f0226ebdc5f71f223143a31280ed0b01171c2",
+      "git_blob_sha": "457aeb5197f65bcf71646410044c9255822814df",
+      "local_source_sha256": "407becd43194ea075bc45f727c7f0226ebdc5f71f223143a31280ed0b01171c2"
+    },
+    {
+      "path": "scripts/cleanup_methylseq.py",
+      "mode": "100644",
+      "bytes": 28124,
+      "sha256": "56d1daf3b34483633796316809e5708dec56978c2d1c630bef88f955b58bff12",
+      "git_blob_sha": "5d8306ca64d6a78984a8a9e080a6dcc4cd3f0df1",
+      "local_source_sha256": "550de0bd1b71a66522cd728a4e5eb4fac4556a9a73840dfdc25b82e13c032c8c"
+    },
+    {
+      "path": "scripts/cleanup_methylseq_cache.py",
+      "mode": "100755",
+      "bytes": 34730,
+      "sha256": "08136ebf76b240813873b0d0fd72a61510730f26278123bfbda21ea25b65c2a0",
+      "git_blob_sha": "8705ee0b7d4d47a719f5f441252462b9ab9af019",
+      "local_source_sha256": "d2c8de2f2a096d82b25c67a5a96c391ad941cf9dbbed29fa5d10376d1be08f38"
+    },
+    {
+      "path": "scripts/lib/experiment_output.py",
+      "mode": "100644",
+      "bytes": 17026,
+      "sha256": "c0fdc7467ca635654cb15581d84a3104299167462200af5d1213659ff1851cbf",
+      "git_blob_sha": "9ed6763c7098b0cbf7b783fddc68d40fc62a1035",
+      "local_source_sha256": "c0fdc7467ca635654cb15581d84a3104299167462200af5d1213659ff1851cbf"
+    },
+    {
+      "path": "scripts/lib/output_guard.py",
+      "mode": "100644",
+      "bytes": 13030,
+      "sha256": "d13859c027fbfbb1a4aca3deeec653452354a1f4b48d7fc42b0e7f6a8390b5a7",
+      "git_blob_sha": "e67da1df7f60c687d2d87ea61a0a7ce9c9e6d2b7",
+      "local_source_sha256": "d13859c027fbfbb1a4aca3deeec653452354a1f4b48d7fc42b0e7f6a8390b5a7"
+    },
+    {
+      "path": "scripts/lib/result_names.sh",
+      "mode": "100644",
+      "bytes": 1165,
+      "sha256": "69c85c519f54671df81ec8e4f1a7dd23552ee924366b638e00858a62ec0a1e56",
+      "git_blob_sha": "0360cda84b182dc46e4a74d21d8038b25c37f9ca",
+      "local_source_sha256": "69c85c519f54671df81ec8e4f1a7dd23552ee924366b638e00858a62ec0a1e56"
+    },
+    {
+      "path": "scripts/methylseq_cache_session.py",
+      "mode": "100755",
+      "bytes": 7917,
+      "sha256": "96779bfee495cf3e0fc47463fdefec00b89386ab2a288dde270fa8d885462920",
+      "git_blob_sha": "c57ccb8c2e25fa29930504f66632933051124efb",
+      "local_source_sha256": "8feee79a1b7f86be7bfbbfc66f659fa6ed942f3278d5e000782ed18c4efa60f1"
+    },
+    {
+      "path": "scripts/methylseq_launch.py",
+      "mode": "100755",
+      "bytes": 25029,
+      "sha256": "625dadce83c312a4e26a90844424dd4411e5a4f0ae9418d00d6c228653cbe8f0",
+      "git_blob_sha": "a137ab71cdf80f356e8be5b9e70c953255c6ca73",
+      "local_source_sha256": "625dadce83c312a4e26a90844424dd4411e5a4f0ae9418d00d6c228653cbe8f0"
+    },
+    {
+      "path": "scripts/methylseq_smoke.py",
+      "mode": "100644",
+      "bytes": 6730,
+      "sha256": "a2f9686e0958d3b00904e5a61259c8b5d7b79fb4da1fff0f2a08634db81205b0",
+      "git_blob_sha": "fb2a4127a626b763cd8aaf0a4f42bb23a9a78930",
+      "local_source_sha256": "a2f9686e0958d3b00904e5a61259c8b5d7b79fb4da1fff0f2a08634db81205b0"
+    },
+    {
+      "path": "scripts/resume_methylseq_atlas_cleanup.py",
+      "mode": "100644",
+      "bytes": 12352,
+      "sha256": "b9ede8ea554d89a7f92025c20785fadccbe190c1a55a2f667c2eb0d6f1632408",
+      "git_blob_sha": "8a3e5cbd768e805b3610894f4e21749e675b1486",
+      "local_source_sha256": "aebd5daff069f4b87ea1aab70485641c5380a7716af539f699e3224dd7aaab96"
+    },
+    {
+      "path": "scripts/summarize_emseq_controls.py",
+      "mode": "100755",
+      "bytes": 12065,
+      "sha256": "6a40565afc993f42a5748457a82daa7a460c95ec83cf12524e7e03f554285fff",
+      "git_blob_sha": "489cda011eb427ff2dfca055229e8a360b52025f",
+      "local_source_sha256": "6a40565afc993f42a5748457a82daa7a460c95ec83cf12524e7e03f554285fff"
+    },
+    {
+      "path": "tests/test_apply_methylseq_cache_batches.py",
+      "mode": "100644",
+      "bytes": 4408,
+      "sha256": "98419a4b732e8f11f13274e41dc16c26891aebc1004a0c3ea98c17fb7d2adf65",
+      "git_blob_sha": "36f440977a769ef19681f3513870e4977c4baa5d",
+      "local_source_sha256": "98419a4b732e8f11f13274e41dc16c26891aebc1004a0c3ea98c17fb7d2adf65"
+    },
+    {
+      "path": "tests/test_clean_source.py",
+      "mode": "100644",
+      "bytes": 2350,
+      "sha256": "2b9214e293bf4a9d84f4dd3fff56237c34160902069484a7945b99d72b2f1de2",
+      "git_blob_sha": "21a2cc42ee2c125e15fccd9a8c91a93da29e5cd8",
+      "local_source_sha256": "2b9214e293bf4a9d84f4dd3fff56237c34160902069484a7945b99d72b2f1de2"
+    },
+    {
+      "path": "tests/test_cleanup_methylseq.py",
+      "mode": "100644",
+      "bytes": 17597,
+      "sha256": "3ba02e7408163a6d39b3c1b36ece4b0d5fb61aaf78b71330a031fb0b8ecfbc87",
+      "git_blob_sha": "5b0fbd34573cb49f29a172d8337af6ece9a4939d",
+      "local_source_sha256": "3ba02e7408163a6d39b3c1b36ece4b0d5fb61aaf78b71330a031fb0b8ecfbc87"
+    },
+    {
+      "path": "tests/test_cleanup_methylseq_cache.py",
+      "mode": "100644",
+      "bytes": 19845,
+      "sha256": "e805dd5602417729543be3de6891cebbf71a606d7dac363b5cf0f6a6fc344f2f",
+      "git_blob_sha": "e4277d7874de4e5e137ab0e5f3c5e45ca591a7e8",
+      "local_source_sha256": "cd3784540fde5c238ec366113ee012cc48a218a9516634857f054f83e5226db3"
+    },
+    {
+      "path": "tests/test_control_output_ownership.py",
+      "mode": "100644",
+      "bytes": 3618,
+      "sha256": "ab7419b4e094a253bed986cdbb7ac1de23512e1284a0df902f1d204ed8f57ee8",
+      "git_blob_sha": "68bfe56e36f99ddde68bceb361a3d9da49994048",
+      "local_source_sha256": "ab7419b4e094a253bed986cdbb7ac1de23512e1284a0df902f1d204ed8f57ee8"
+    },
+    {
+      "path": "tests/test_dmrichr_inputs.py",
+      "mode": "100644",
+      "bytes": 4355,
+      "sha256": "d76c3903df10b09098b2c3797cdf3c1472326aa458b49962e18c850b823e0f41",
+      "git_blob_sha": "6548dd8d76f4ac9c77fffded90f8b8f5b76313c4",
+      "local_source_sha256": "d76c3903df10b09098b2c3797cdf3c1472326aa458b49962e18c850b823e0f41"
+    },
+    {
+      "path": "tests/test_experiment_output.py",
+      "mode": "100644",
+      "bytes": 10631,
+      "sha256": "01bedcc77e9a6629a16f21dbdd462ac907163d4bb253534205a8131c21a69f77",
+      "git_blob_sha": "41c7573eb0486e2d2f23d38d8c66d31d55ff1c6c",
+      "local_source_sha256": "7e160905fc932e1b1287d22c9772fee8db666a075852a29e23b85f3f2c0a03d6"
+    },
+    {
+      "path": "tests/test_methylseq_cache_session.py",
+      "mode": "100644",
+      "bytes": 12311,
+      "sha256": "6303c5459942b871344cc8c27edc0203e8cade47bd559940c1a0462aaf581560",
+      "git_blob_sha": "4446b72e653c488f84ce731ea3245164293276b8",
+      "local_source_sha256": "375313026fff1e7e47a86b3a71bdc0aefe8b9e2b568ff48ee7f21472575378d7"
+    },
+    {
+      "path": "tests/test_methylseq_launch.py",
+      "mode": "100644",
+      "bytes": 15481,
+      "sha256": "4ca77dc37ff1d893c17d1fe71b39f241ff9e73c3fec6c5af90c0795e2eaf0148",
+      "git_blob_sha": "48ced566ce1266e8df3e519c5bfb3754be9fc5ca",
+      "local_source_sha256": "4ca77dc37ff1d893c17d1fe71b39f241ff9e73c3fec6c5af90c0795e2eaf0148"
+    },
+    {
+      "path": "tests/test_methylseq_smoke.py",
+      "mode": "100644",
+      "bytes": 5243,
+      "sha256": "02cb2c626b49ca4d61070260e7cc1c6aec424b9eab279a0b1a6bfdc02278e1d7",
+      "git_blob_sha": "9e10e8ac100f5b567feebb22f6e0c005d277327b",
+      "local_source_sha256": "02cb2c626b49ca4d61070260e7cc1c6aec424b9eab279a0b1a6bfdc02278e1d7"
+    },
+    {
+      "path": "tests/test_output_guard.py",
+      "mode": "100644",
+      "bytes": 8923,
+      "sha256": "59eb911cc60a511841b87355ba7063ce8c08edd4fe204802a7255b5b84120deb",
+      "git_blob_sha": "7f04c18e07c781ce8e681b7c01091009f2d66b1f",
+      "local_source_sha256": "59eb911cc60a511841b87355ba7063ce8c08edd4fe204802a7255b5b84120deb"
+    },
+    {
+      "path": "tests/test_pat_launcher.py",
+      "mode": "100644",
+      "bytes": 9685,
+      "sha256": "e67deca83b64c929a14e5f168970e3b9de29b56547b7cd88e5f3c4564438abcc",
+      "git_blob_sha": "b481ada032323b16db4a4dae9480b8adb2c1fb87",
+      "local_source_sha256": "e67deca83b64c929a14e5f168970e3b9de29b56547b7cd88e5f3c4564438abcc"
+    },
+    {
+      "path": "tests/test_pat_provenance.py",
+      "mode": "100644",
+      "bytes": 15870,
+      "sha256": "1ccbd60c402ad4123c62c3fbfed12e3bdfa8db07042382ba81649f113274e94e",
+      "git_blob_sha": "51914320c168ce542cdfa5de78591877b386a79a",
+      "local_source_sha256": "1ccbd60c402ad4123c62c3fbfed12e3bdfa8db07042382ba81649f113274e94e"
+    },
+    {
+      "path": "tests/test_resume_methylseq_atlas_cleanup.py",
+      "mode": "100644",
+      "bytes": 3569,
+      "sha256": "09f036c38fc3ce62d751d329179e66ad8e1d0c5b6289794b2c539d335cb5eaf5",
+      "git_blob_sha": "410e7b27005e7fe2121ec36c0dee586a81b5ef80",
+      "local_source_sha256": "d2858a5a30ba43fc8752dd5942ed34ff867312fc9fa2f9c3e7c15dd4381fe8b8"
+    },
+    {
+      "path": "tests/test_uxm_publication.py",
+      "mode": "100644",
+      "bytes": 9022,
+      "sha256": "4aa681edb627f09d1c1c18bc163719146863accd3e48473f001b32aafedc5cc1",
+      "git_blob_sha": "4821668afbec4a4b0753ab24848551a1055ccbfd",
+      "local_source_sha256": "63876d88a629bd49b80537c91d68a71aa5db51b1ce4dec4dff891fd2b5af2592"
+    },
+    {
+      "path": "workflows/deconflow/README.md",
+      "mode": "100644",
+      "bytes": 14507,
+      "sha256": "7e4293ee2c29b223df6fdb88b08883d1dd475ab114a875bde828f7442dd03b4c",
+      "git_blob_sha": "1cdf964fefa14132da59b595bd5797fe82c0bafc",
+      "local_source_sha256": "0a6f5358a0fc13cb6dd4bbc70045bd384d1de0be55e1272e47ef82c7220dc72d"
+    },
+    {
+      "path": "workflows/deconflow/analysis.py",
+      "mode": "100644",
+      "bytes": 5212,
+      "sha256": "7d2ced4f3aeeb582707d9602a8ffc0a535363a65aa80ddbb22a9494146828e62",
+      "git_blob_sha": "23277b50f03b86107bbf39bd0d7170d1794547ff",
+      "local_source_sha256": "7d2ced4f3aeeb582707d9602a8ffc0a535363a65aa80ddbb22a9494146828e62"
+    },
+    {
+      "path": "workflows/deconflow/checkpoint.json",
+      "mode": "100644",
+      "bytes": 384,
+      "sha256": "e978326ee6b71a5d6dc81f92f183fca95a04a9162e17c2aad34e75d31c21ed6f",
+      "git_blob_sha": "55e9aaaecac033ee2f0d89aeb0d4d89281145b2b",
+      "local_source_sha256": "e978326ee6b71a5d6dc81f92f183fca95a04a9162e17c2aad34e75d31c21ed6f"
+    },
+    {
+      "path": "workflows/deconflow/common.py",
+      "mode": "100644",
+      "bytes": 7135,
+      "sha256": "58a0d0d0e26cdd1a55b4e6266368fd72a8d5b2e0b24f90686964c9977952ae31",
+      "git_blob_sha": "2fb7e66ea6ed2e618221a55d0dc6a7a814be0d7f",
+      "local_source_sha256": "0f0a3a3cd6a8a18ec089bfa9a8cf3cc3f2d564447cd72317f26f3ea7c48a45da"
+    },
+    {
+      "path": "workflows/deconflow/config/baselines.json",
+      "mode": "100644",
+      "bytes": 1074,
+      "sha256": "b7af5b0bb52679546722a7e2bc5a944b5abb6585b4111df8418acb9e80eb2e29",
+      "git_blob_sha": "12c54aaedda2f1643fb6a5b111eea629cff7f1a1",
+      "local_source_sha256": "786be875f3faff9fe6633de71a8beccda8cf2a4e020c7e1a1483a0f2094e70e0"
+    },
+    {
+      "path": "workflows/deconflow/config/fixtures.config",
+      "mode": "100644",
+      "bytes": 333,
+      "sha256": "703e4be2af2a7c44f12767eee8290ea0be6074f1642ab403e0a33d230475b5c3",
+      "git_blob_sha": "2bcacd885b8b943bac3ee3ba8440796ae31ee251",
+      "local_source_sha256": "703e4be2af2a7c44f12767eee8290ea0be6074f1642ab403e0a33d230475b5c3"
+    },
+    {
+      "path": "workflows/deconflow/config/flamingo.config",
+      "mode": "100644",
+      "bytes": 2224,
+      "sha256": "9282bc7ab30fe390cbcc5364633331c115292470d33aaf26a39361b70350f76c",
+      "git_blob_sha": "e280a779d18aeddf18c35b8fea2ab350178ce22b",
+      "local_source_sha256": "c8a20179f65855da4ed0efbd80dfce119bf998acbb3a08b84e812ee52da8422c"
+    },
+    {
+      "path": "workflows/deconflow/config/fragment_validation.json",
+      "mode": "100644",
+      "bytes": 5683,
+      "sha256": "f9d531b7cc710dfe5d10cb88277e0dab7d723f44a60813d7a2a5a756806ce129",
+      "git_blob_sha": "356caf355745f375bc0f2b8d6da2aaf3920e2339",
+      "local_source_sha256": "f092020ebf2025f8c78d602f7b0e1eda9a602e2c0f56e9f85c976b25811fc217"
+    },
+    {
+      "path": "workflows/deconflow/config/fragments.config",
+      "mode": "100644",
+      "bytes": 619,
+      "sha256": "6d73f7c27f13a86c0ba57d65f842bb05140ad047e161537005e672f9f5561c06",
+      "git_blob_sha": "40dc51d78ab53c37eae6733893bb335fddb7d752",
+      "local_source_sha256": "6d73f7c27f13a86c0ba57d65f842bb05140ad047e161537005e672f9f5561c06"
+    },
+    {
+      "path": "workflows/deconflow/config/images.lock.json",
+      "mode": "100644",
+      "bytes": 1204,
+      "sha256": "d38f08e16deaa8256e1034cf7f74c27f0231e74735ea632e53fc3d82f92f9f56",
+      "git_blob_sha": "1f59021d370ca7fb588800953613e2f0fb2d390f",
+      "local_source_sha256": "d38f08e16deaa8256e1034cf7f74c27f0231e74735ea632e53fc3d82f92f9f56"
+    },
+    {
+      "path": "workflows/deconflow/config/marker_validation.json",
+      "mode": "100644",
+      "bytes": 355,
+      "sha256": "8a3e1d54c7c30a9005aaa5fe41d3ae3c0e769d92ef9fc66b56676fd3bdfd6b0f",
+      "git_blob_sha": "b76667a1431e44d2574cfbc4741f9f31b7996d23",
+      "local_source_sha256": "8a3e1d54c7c30a9005aaa5fe41d3ae3c0e769d92ef9fc66b56676fd3bdfd6b0f"
+    },
+    {
+      "path": "workflows/deconflow/config/membership.pending.tsv",
+      "mode": "100644",
+      "bytes": 108292,
+      "sha256": "4c38d3ba0f73be8a8d34cdbe87edeb7ead3b2091296be81512d7c8095cdcc91d",
+      "git_blob_sha": "a3d23a9bbe5e09602427e365cfb5705eaf30a518",
+      "local_source_sha256": "fb5831f983ee63699a060869d03195bea9fb9685260db01f813df46c5aeae3f1"
+    },
+    {
+      "path": "workflows/deconflow/config/native_validation.json",
+      "mode": "100644",
+      "bytes": 615,
+      "sha256": "8e21ec1448e7f61b393257d1648df075973c270142ca36673fea6a15e6e3b300",
+      "git_blob_sha": "01ebaa0ebc891ee5737f6b4ec3dd565455d50b6c",
+      "local_source_sha256": "8e21ec1448e7f61b393257d1648df075973c270142ca36673fea6a15e6e3b300"
+    },
+    {
+      "path": "workflows/deconflow/config/params.counts.json",
+      "mode": "100644",
+      "bytes": 45,
+      "sha256": "0cdc3a1c51e66c14fe12a936e2f68d6ebad0fb19cae8030af2b68116e72c3d96",
+      "git_blob_sha": "e10c2263547e1932cddb8377dfa1e3f23e7f4ce2",
+      "local_source_sha256": "0cdc3a1c51e66c14fe12a936e2f68d6ebad0fb19cae8030af2b68116e72c3d96"
+    },
+    {
+      "path": "workflows/deconflow/config/params.epidish.json",
+      "mode": "100644",
+      "bytes": 193,
+      "sha256": "f3493183594b3226f808431bfcb8e1a4b8a0b74571e58126e57f9dd0376a6e77",
+      "git_blob_sha": "4bd1a4351e8fee127d379e0e97db9cd70e88579f",
+      "local_source_sha256": "f3493183594b3226f808431bfcb8e1a4b8a0b74571e58126e57f9dd0376a6e77"
+    },
+    {
+      "path": "workflows/deconflow/config/params.uxm.json",
+      "mode": "100644",
+      "bytes": 193,
+      "sha256": "e79319c2f711810baf0fc10e5f5d73ce670acff61f9c20496509d37da1d3cfb2",
+      "git_blob_sha": "6c811565be278237f1bb87ad76b8da326ba91795",
+      "local_source_sha256": "e79319c2f711810baf0fc10e5f5d73ce670acff61f9c20496509d37da1d3cfb2"
+    },
+    {
+      "path": "workflows/deconflow/config/plan.pats.json",
+      "mode": "100644",
+      "bytes": 230,
+      "sha256": "d4819c7eb2f48188ad98294beb4ac40597e16d96da28b7c9363769e6402d8aa2",
+      "git_blob_sha": "881fee948eb661d6d510d630910db6e17ab03a21",
+      "local_source_sha256": "d4819c7eb2f48188ad98294beb4ac40597e16d96da28b7c9363769e6402d8aa2"
+    },
+    {
+      "path": "workflows/deconflow/config/reference_audit.json",
+      "mode": "100644",
+      "bytes": 2523,
+      "sha256": "db264a7067f301669e677abf59136199d8d23baf67bf98378ad73cb9373c0ce0",
+      "git_blob_sha": "3529b855f3aa8e52e578fda489e638f971eaef94",
+      "local_source_sha256": "4d064f86d82b3775f4dd6144a9ef125d64d4b27d0b62f442cd34d21268bd02ce"
+    },
+    {
+      "path": "workflows/deconflow/config/source.lock.json",
+      "mode": "100644",
+      "bytes": 2063,
+      "sha256": "939f5266b282015b31085627a8698c62d5a9f05e344402bac9363e77c564b75c",
+      "git_blob_sha": "445e9259c400f1ada30c1bb910365aea332d2a6d",
+      "local_source_sha256": "939f5266b282015b31085627a8698c62d5a9f05e344402bac9363e77c564b75c"
+    },
+    {
+      "path": "workflows/deconflow/environment.yml",
+      "mode": "100644",
+      "bytes": 708,
+      "sha256": "c16bdbc3e4e96df5d7874122302f17e4e71af563c44bc6d541ea9c20bd3bc847",
+      "git_blob_sha": "3c91ee59ef5bf1275f803bd1fa9f2b7c4334c2b8",
+      "local_source_sha256": "c16bdbc3e4e96df5d7874122302f17e4e71af563c44bc6d541ea9c20bd3bc847"
+    },
+    {
+      "path": "workflows/deconflow/fragments.nf",
+      "mode": "100644",
+      "bytes": 1223,
+      "sha256": "97122877d08cec98691124d6b30ab3bc8a137a2988252a4130b6ab20d5c63411",
+      "git_blob_sha": "dac63c51c223c2acdeb20eaa13e3b9c85b5b0012",
+      "local_source_sha256": "97122877d08cec98691124d6b30ab3bc8a137a2988252a4130b6ab20d5c63411"
+    },
+    {
+      "path": "workflows/deconflow/fragments.py",
+      "mode": "100644",
+      "bytes": 8498,
+      "sha256": "2d390b1995fa5523b6f76eccc0554e6504e934078c8eb77500e057600db51686",
+      "git_blob_sha": "f483a183d351710043585bf989c4f08814eb8ee2",
+      "local_source_sha256": "2d390b1995fa5523b6f76eccc0554e6504e934078c8eb77500e057600db51686"
+    },
+    {
+      "path": "workflows/deconflow/maintenance/configuration_checks.json",
+      "mode": "100644",
+      "bytes": 1240,
+      "sha256": "87a133f90fbd0b0af97dc94bb7638d47ab41f5105579ea13bbb70d58837d900a",
+      "git_blob_sha": "b9b7b5a01a3f0e3f95d66fad5625de8675ab4541",
+      "local_source_sha256": "1307eb005a13ca0dd2f61b716767752db2f9b887d26e17da363bf87be7c587db"
+    },
+    {
+      "path": "workflows/deconflow/maintenance/simplification.json",
+      "mode": "100644",
+      "bytes": 2161,
+      "sha256": "b0f7e3ef52db12d673bb6123fd95b557a73d313c08705066079f20e3876039d2",
+      "git_blob_sha": "738aa7e0940eac3fe06501f7359c2480e4d56065",
+      "local_source_sha256": "21a5667041bae958c800050f1c0b62b9371de70a3fe3e1d087f8110eecd6024e"
+    },
+    {
+      "path": "workflows/deconflow/native.py",
+      "mode": "100644",
+      "bytes": 5796,
+      "sha256": "97484fd7e528cc0843cdeec55b9b383c874d6f59b1d63f698240d523896c9ad6",
+      "git_blob_sha": "6f359dc87c493a4f3d2750fcd231ddf5f7cc7468",
+      "local_source_sha256": "97484fd7e528cc0843cdeec55b9b383c874d6f59b1d63f698240d523896c9ad6"
+    },
+    {
+      "path": "workflows/deconflow/pat_inputs.py",
+      "mode": "100644",
+      "bytes": 8871,
+      "sha256": "bded7d1fe3cf43b768ed6406d7ecc635479ac6d719ac97587263d5e105ee9513",
+      "git_blob_sha": "7bb99a800654a89c2b2dcd399f7d5b906f071a8d",
+      "local_source_sha256": "bded7d1fe3cf43b768ed6406d7ecc635479ac6d719ac97587263d5e105ee9513"
+    },
+    {
+      "path": "workflows/deconflow/run_deconflow.sh",
+      "mode": "100644",
+      "bytes": 1696,
+      "sha256": "75e3732de013d834b455a015516698f4244ae3fa18bad08a77af33e702b26f52",
+      "git_blob_sha": "14cf65442f1eda12d7076c80caa8ed52cb38f41d",
+      "local_source_sha256": "7fa9f71eed35de7f594a8b041881c2dd065b4a261ec31ea7414060d9aaa974da"
+    },
+    {
+      "path": "workflows/deconflow/runtime.lock.json",
+      "mode": "100644",
+      "bytes": 6498,
+      "sha256": "cd04e2c68f169ddc8d592821473ecb236be7fe92ca356240cd55e53fa20e59f1",
+      "git_blob_sha": "a87014b90ab6f04fe082c9c0f96c83841811f8ea",
+      "local_source_sha256": "484fbfb415326f2ede7d42992627ecc5a79e09c61858bed865cac63753d34cb9"
+    },
+    {
+      "path": "workflows/deconflow/tests/test_celfie_observed_selection.py",
+      "mode": "100644",
+      "bytes": 9479,
+      "sha256": "178749a5666e297abbc2eb8799ee7ab88eaea32858f74845e8a9acc6f95ef9f7",
+      "git_blob_sha": "9af3c8caf184d0ce396dd9bd1230dc3d1148d14f",
+      "local_source_sha256": "178749a5666e297abbc2eb8799ee7ab88eaea32858f74845e8a9acc6f95ef9f7"
+    },
+    {
+      "path": "workflows/deconflow/tests/test_celfie_patients.py",
+      "mode": "100644",
+      "bytes": 15756,
+      "sha256": "e49b6e8c40734468a06c1bf3fcea1fcf4f3e8f3954518470e4027fac4ae9a67e",
+      "git_blob_sha": "b694546747523073b8bb74fee15ba4212460e25b",
+      "local_source_sha256": "e49b6e8c40734468a06c1bf3fcea1fcf4f3e8f3954518470e4027fac4ae9a67e"
+    },
+    {
+      "path": "workflows/deconflow/tests/test_celfie_reference_status.py",
+      "mode": "100644",
+      "bytes": 8547,
+      "sha256": "d1c6bb78a658da54932679814cb5070d21532930e48ac20c266aab0a931f69d9",
+      "git_blob_sha": "1d3e74a713aadfde158df3fbea7067dc73ac0645",
+      "local_source_sha256": "d1c6bb78a658da54932679814cb5070d21532930e48ac20c266aab0a931f69d9"
+    },
+    {
+      "path": "workflows/deconflow/tests/test_celfie_score_diagnostics.py",
+      "mode": "100644",
+      "bytes": 12356,
+      "sha256": "5e1159b1339e3b8f47d5280f09e7ecbdd27a82f8d31a295d2011f8c61468abda",
+      "git_blob_sha": "7017fc7ba0d71087d93cc855593c976256702a47",
+      "local_source_sha256": "5e1159b1339e3b8f47d5280f09e7ecbdd27a82f8d31a295d2011f8c61468abda"
+    },
+    {
+      "path": "workflows/deconflow/tests/test_contracts.py",
+      "mode": "100644",
+      "bytes": 19135,
+      "sha256": "f9fe364a4a1df11f58dd00635e8c91f2f4515359ccebf91fb4396ab4af7cb451",
+      "git_blob_sha": "f8d1cc48c7dd1f098f6c6741d0ba7faaf734ef06",
+      "local_source_sha256": "f9fe364a4a1df11f58dd00635e8c91f2f4515359ccebf91fb4396ab4af7cb451"
+    },
+    {
+      "path": "workflows/deconflow/tests/test_count_cli_ownership.py",
+      "mode": "100644",
+      "bytes": 1950,
+      "sha256": "f6914591db89d5072b8cb7713df2da199f1562581762c9e46661e8ecf563d4cd",
+      "git_blob_sha": "99e1f179770e3fda680f9a3169a8507ccb833e8b",
+      "local_source_sha256": "f6914591db89d5072b8cb7713df2da199f1562581762c9e46661e8ecf563d4cd"
+    },
+    {
+      "path": "workflows/deconflow/tests/test_nextflow_sessions.py",
+      "mode": "100644",
+      "bytes": 2105,
+      "sha256": "6a15986cbda6678db83d4b443bfc31537dba2219dcd05a9c45f825254d26634e",
+      "git_blob_sha": "ab851ec3beb040d3418c8c9a1e01ab5774e7095a",
+      "local_source_sha256": "6a15986cbda6678db83d4b443bfc31537dba2219dcd05a9c45f825254d26634e"
+    },
+    {
+      "path": "workflows/deconflow/tests/test_pat_inputs.py",
+      "mode": "100644",
+      "bytes": 4008,
+      "sha256": "dcc5fc72843eb6afc5cda4225c50d8475cce4fd11376097d62270ef95cbb7969",
+      "git_blob_sha": "3a0b8f9e9cc10e8355b3d2245a4b53946827cbb5",
+      "local_source_sha256": "dcc5fc72843eb6afc5cda4225c50d8475cce4fd11376097d62270ef95cbb7969"
+    },
+    {
+      "path": "workflows/deconflow/tests/test_shell_dispatch.py",
+      "mode": "100644",
+      "bytes": 2128,
+      "sha256": "e0e557c45ec3e00e901297d1a8dfc0d1983ce3cb60fc64b35f9e270ceaff76ce",
+      "git_blob_sha": "f99b0899a752f6946b2481671948a28a6bc4216b",
+      "local_source_sha256": "bcd7d83cde23021a7f203826c3f043a8f3adf91a8c69068c645505525e78ef82"
+    },
+    {
+      "path": "workflows/deconflow/tools/__init__.py",
+      "mode": "100644",
+      "bytes": 83,
+      "sha256": "56ee2a54d2c13fed36e0bd13823f38d364af7af97c3ebe0f139cfaf6fa8ea2f9",
+      "git_blob_sha": "fd8d1623115d53375c59ee8d6d1bf6e52aebcc5a",
+      "local_source_sha256": "56ee2a54d2c13fed36e0bd13823f38d364af7af97c3ebe0f139cfaf6fa8ea2f9"
+    },
+    {
+      "path": "workflows/deconflow/tools/celfie_diagnostics.py",
+      "mode": "100755",
+      "bytes": 3577,
+      "sha256": "f501f7cee02c1526a68bc6f7a33f0b415b3a6b2302a240d6eecaf7bbbc52a299",
+      "git_blob_sha": "d5fe7d88ed7184a0c171c024b44fc1be4a47caa0",
+      "local_source_sha256": "f501f7cee02c1526a68bc6f7a33f0b415b3a6b2302a240d6eecaf7bbbc52a299"
+    },
+    {
+      "path": "workflows/deconflow/tools/celfie_fixture.nf",
+      "mode": "100644",
+      "bytes": 249,
+      "sha256": "8b48009ac008f37874c6ef7f869a8d5d31570f4a87c2658196d329505877622a",
+      "git_blob_sha": "fed719c98eeba554b996dd93a54d02879765aa6a",
+      "local_source_sha256": "8b48009ac008f37874c6ef7f869a8d5d31570f4a87c2658196d329505877622a"
+    },
+    {
+      "path": "workflows/deconflow/tools/celfie_patients.nf",
+      "mode": "100644",
+      "bytes": 1016,
+      "sha256": "48244978f8d5c07561ac5d866994c6d24bcabdd5576ae3135bfd06157bf4bb3c",
+      "git_blob_sha": "d074e7133ec751bcbc2cf8c2c47c49ee5b676513",
+      "local_source_sha256": "48244978f8d5c07561ac5d866994c6d24bcabdd5576ae3135bfd06157bf4bb3c"
+    },
+    {
+      "path": "workflows/deconflow/tools/celfie_patients.py",
+      "mode": "100755",
+      "bytes": 19786,
+      "sha256": "632dd0fdb144f223b46e0c9ca148fa968b0b2b6711d8d1764ccdf1fef8feb176",
+      "git_blob_sha": "cb08ee8d6a2b50bf47509900ec2ceb0277d3a4dd",
+      "local_source_sha256": "a5938c1b374d57f5589a0b0f6f9c56e671c7bd39df0989e0d3d161e6a2da8d10"
+    },
+    {
+      "path": "workflows/deconflow/tools/celfie_reference_status.py",
+      "mode": "100644",
+      "bytes": 7022,
+      "sha256": "bf96729560a5726b44408e66dc28fa9e77d76b0125d45303195425b6e0eed26e",
+      "git_blob_sha": "78172542ec4ffe746d53e35a5766f42f359b2be0",
+      "local_source_sha256": "bf96729560a5726b44408e66dc28fa9e77d76b0125d45303195425b6e0eed26e"
+    },
+    {
+      "path": "workflows/deconflow/tools/celfie_score_diagnostics.py",
+      "mode": "100644",
+      "bytes": 13803,
+      "sha256": "368aa3e5b0ef374436c363d6ea3304773bf34c3a79475e0099523c588d224234",
+      "git_blob_sha": "0d9e33af3acfcf6b90048a4ff5d42063a8edda3b",
+      "local_source_sha256": "368aa3e5b0ef374436c363d6ea3304773bf34c3a79475e0099523c588d224234"
+    },
+    {
+      "path": "workflows/deconflow/tools/combine_count_gates.py",
+      "mode": "100644",
+      "bytes": 3532,
+      "sha256": "59891ee6cd017e24d2dac317c0af32a751625067ff2ace265881654fc99bbd15",
+      "git_blob_sha": "f06f6a4515761a014465334321a164939022c625",
+      "local_source_sha256": "59891ee6cd017e24d2dac317c0af32a751625067ff2ace265881654fc99bbd15"
+    },
+    {
+      "path": "workflows/deconflow/tools/compare.py",
+      "mode": "100644",
+      "bytes": 9450,
+      "sha256": "6f4861796c38f2a7577200178eeaf0273275a93bccd5b2dc9b775eed083c8242",
+      "git_blob_sha": "aaf93417486fae5c389c883a3054b02a7aad8423",
+      "local_source_sha256": "6f4861796c38f2a7577200178eeaf0273275a93bccd5b2dc9b775eed083c8242"
+    },
+    {
+      "path": "workflows/deconflow/tools/compare_celfie_uxm.py",
+      "mode": "100644",
+      "bytes": 7001,
+      "sha256": "d7e41745508700681b22b73d9e08500d386d590c429764f17a086731ce598963",
+      "git_blob_sha": "012732bd4b6ce4273a3da2f5394677835fc7f3d6",
+      "local_source_sha256": "d7e41745508700681b22b73d9e08500d386d590c429764f17a086731ce598963"
+    },
+    {
+      "path": "workflows/deconflow/tools/export_celfie_observed_selection.py",
+      "mode": "100644",
+      "bytes": 9627,
+      "sha256": "4be93004b36c26a3bef75db64c4dc97ef00b21477eff53d6fce32d8bb7914332",
+      "git_blob_sha": "3e1bc9958a9555c3714a24621b0218fc10d59bc3",
+      "local_source_sha256": "4be93004b36c26a3bef75db64c4dc97ef00b21477eff53d6fce32d8bb7914332"
+    },
+    {
+      "path": "workflows/deconflow/tools/pat_counts.py",
+      "mode": "100644",
+      "bytes": 13308,
+      "sha256": "88761b2817dd39637e425a95deb3528c293a6db832a17d24e4fb0b970c8b3554",
+      "git_blob_sha": "f84d0fd416c2ec30b3f8ee05074e3fffa3454e87",
+      "local_source_sha256": "e8fd509a29717ac12003f7b0844c35b13a991b56280231ff62828a0677fe6d96"
+    },
+    {
+      "path": "workflows/deconflow/tools/prepare_matched_reference.py",
+      "mode": "100644",
+      "bytes": 14126,
+      "sha256": "1505ae87c1ddf2757ed098f82d8f18d40da7f87135c27df6cf2e65436cc9f977",
+      "git_blob_sha": "5e52353e45bf174e56cec0bc020068a38bee05d9",
+      "local_source_sha256": "9787f18262a09b97ab2af47185b1401cffdd121fe7b4937a4981dbbc51edf6df"
+    },
+    {
+      "path": "workflows/deconflow/tools/reference.py",
+      "mode": "100644",
+      "bytes": 11110,
+      "sha256": "e7d08eb83188c389d7343d88c9bc808780a1ed68c2f7f52b1c423b830d0b6486",
+      "git_blob_sha": "37d03179c9119592f7bef143de0b8b7f66464016",
+      "local_source_sha256": "e7d08eb83188c389d7343d88c9bc808780a1ed68c2f7f52b1c423b830d0b6486"
+    },
+    {
+      "path": "workflows/deconflow/tools/run_celfie_comparison.sh",
+      "mode": "100644",
+      "bytes": 784,
+      "sha256": "c2fd78ba7e767e7767d0e4a1e6b19f573b1375d717ce15375d81658cf1000dfa",
+      "git_blob_sha": "76ddc3abd60b5a9804c74c61d38870fc94443cfd",
+      "local_source_sha256": "51c4ee348a4164079f77a235c5a3410f978455a8d77657d0c4f6ad42dcf4c598"
+    },
+    {
+      "path": "workflows/deconflow/tools/run_celfie_fixture.sh",
+      "mode": "100644",
+      "bytes": 741,
+      "sha256": "dcf3a6deb383371f5275dddfb45cc5d4c5e89841b81ef8a18a121989cc4b7885",
+      "git_blob_sha": "3ba52ee5cdd82bf2641d8cdcf59843b1ddcf96ca",
+      "local_source_sha256": "f351c19a1574b2a1d1a1a6bce75a9a316bff009b4d975d79ffd8acd541ef7bc4"
+    },
+    {
+      "path": "workflows/deconflow/tools/run_celfie_patients.sh",
+      "mode": "100755",
+      "bytes": 1369,
+      "sha256": "bb86a8a5bf2958117f37d60775ddcafb71f34646d40808ad8e937707ef119f6c",
+      "git_blob_sha": "07cf0fb7d3e3c5ab09c02a34e6c51ccada49a9a9",
+      "local_source_sha256": "7c001d620001f6530869027a766338001f41a172b7a2c89ea4b535e10dc05bae"
+    },
+    {
+      "path": "workflows/deconflow/tools/run_reference.sh",
+      "mode": "100644",
+      "bytes": 533,
+      "sha256": "08b811724f52f9000ef1feced420847782a28f47f034ed6304a332f61cdc60e2",
+      "git_blob_sha": "153c0cdf82a68af1cc0821dfa3fc092ced5262b6",
+      "local_source_sha256": "70ed096e20b011a48236762f8d2defeab74b704baaeb58f0a442c30bfa6090d2"
+    },
+    {
+      "path": "workflows/deconflow/tools/stage_runtime.py",
+      "mode": "100644",
+      "bytes": 5266,
+      "sha256": "0da3d2b36acd8de62ea6243ae4da478042613af709a3a6458d07ae7ea6899a4a",
+      "git_blob_sha": "f90265b68d238304bf5da1a696b413ff4fc88365",
+      "local_source_sha256": "0da3d2b36acd8de62ea6243ae4da478042613af709a3a6458d07ae7ea6899a4a"
+    },
+    {
+      "path": "workflows/deconflow/tools/stage_runtime.sh",
+      "mode": "100644",
+      "bytes": 1057,
+      "sha256": "f011da0c6ccf0f166e191aa4a4119d4e5ca4690983e4406ed1ac2f8ba74d0a82",
+      "git_blob_sha": "31190ec1fa01d9f1c30ab68d0a632fcf67819f9b",
+      "local_source_sha256": "8a9e7b3e35f886d7510c8ce153af80dea09d14fd237599611731fee72f64eb2c"
+    },
+    {
+      "path": "workflows/deconflow/tools/validate_celfie.py",
+      "mode": "100644",
+      "bytes": 5297,
+      "sha256": "6bb6c0091458ba26e1e29a335f59e89a7040d3a5a4200791f34d029f5ece55fc",
+      "git_blob_sha": "d05a4300b896ffa580d9ffbe7138b223a7dfc6ed",
+      "local_source_sha256": "b6cf90fd4b53e01530fb11a4d1c39cf78435d1a7023f1c92d3d5cd18f34fa5cb"
+    },
+    {
+      "path": "workflows/deconflow/tools/validate_matched_counts.py",
+      "mode": "100644",
+      "bytes": 9950,
+      "sha256": "39f03af53a4d628542ac4a91b88b9aabaa77c8a9fa22edcf4faf21c28984543e",
+      "git_blob_sha": "d12e6f6d20fb8d8849f81858aeb0dfcb7ecb14f1",
+      "local_source_sha256": "0f86d3297e44f44847d7c7eafb325c3d541cd378ae156d9caf7d2539c0c1b06d"
+    },
+    {
+      "path": "workflows/deconflow/tools/validate_pat_route.py",
+      "mode": "100644",
+      "bytes": 9635,
+      "sha256": "97d66d6812459210742c97ed4014672b74d5904b7841b5bfa6283e2cf9b44527",
+      "git_blob_sha": "bb065339dabd52d5f61c83286898d073154172a1",
+      "local_source_sha256": "97d66d6812459210742c97ed4014672b74d5904b7841b5bfa6283e2cf9b44527"
+    },
+    {
+      "path": "workflows/deconflow/tools/validate_runtime.py",
+      "mode": "100644",
+      "bytes": 6882,
+      "sha256": "9dea4fc2683eafc1dd53f0f9e0b86433df2742189d8256c3ef4ad773004f73bc",
+      "git_blob_sha": "39508aa436dae11bb41b83261f6db6b9ba8091cc",
+      "local_source_sha256": "9dea4fc2683eafc1dd53f0f9e0b86433df2742189d8256c3ef4ad773004f73bc"
+    },
+    {
+      "path": "workflows/deconflow/tools/validate_runtime.sh",
+      "mode": "100644",
+      "bytes": 722,
+      "sha256": "3ecccfee1a7738df275d55d6259c85bff78b42df80d6f837b71ee1969122c3b2",
+      "git_blob_sha": "e65aed1caac03c59d0a18f09f927f8144ed4e56c",
+      "local_source_sha256": "81810e9063ce65dde3fbe816b0ce9b9a2f121d6c03388389e25dca708f7173d5"
+    },
+    {
+      "path": "workflows/dmrcate/IMPLEMENTATION_STATUS.md",
+      "mode": "100644",
+      "bytes": 33140,
+      "sha256": "d3eddc21d9b343fe0ff11204729d059f215a6786c78fe5dec680d50d887b3aba",
+      "git_blob_sha": "fc7778cf47455e0f67bbee8611fe40ceef6fc84c",
+      "local_source_sha256": "6902ac11ed4d0f724f684319f693c0e6bfd572c3217be4aa971441bbcbaeb6c8"
+    },
+    {
+      "path": "workflows/dmrcate/README.md",
+      "mode": "100644",
+      "bytes": 19037,
+      "sha256": "14cc8a234dda0b8dcc049f547c527befacbb00da9da72152a03dd4e37ace64f2",
+      "git_blob_sha": "9a75ef2b13a5c209f79ab93f27fe202ad469ba81",
+      "local_source_sha256": "e70afbbee3730e7f62c164ddcd13fdc60ff7309d376d59131df09ec795c982f8"
+    },
+    {
+      "path": "workflows/dmrcate/analysis.R",
+      "mode": "100644",
+      "bytes": 18951,
+      "sha256": "5092d3ea15a8de61a4c0373732f739e30befff6dd922f2dda1964e20d185789c",
+      "git_blob_sha": "8e04376ce8f75e79e300dc6dd2d0fe61760b5baf",
+      "local_source_sha256": "5092d3ea15a8de61a4c0373732f739e30befff6dd922f2dda1964e20d185789c"
+    },
+    {
+      "path": "workflows/dmrcate/compare_healthy_wbc.py",
+      "mode": "100644",
+      "bytes": 14282,
+      "sha256": "42b4d85edf76363fcc5f0e480c8551b03fa3b10199d7fc4bcc2a2b8d227ebfa7",
+      "git_blob_sha": "7b835a966bcc212a30fb2bea9641d69efc139d31",
+      "local_source_sha256": "42b4d85edf76363fcc5f0e480c8551b03fa3b10199d7fc4bcc2a2b8d227ebfa7"
+    },
+    {
+      "path": "workflows/dmrcate/config/chrom_sizes.tsv",
+      "mode": "100644",
+      "bytes": 376,
+      "sha256": "2c49968ec40d099dfd03d6930c7b224688dadb415c34495f36807ccb3f0253bb",
+      "git_blob_sha": "bbd5557d33002a1e56e97076bd531d472aa78291",
+      "local_source_sha256": "2c49968ec40d099dfd03d6930c7b224688dadb415c34495f36807ccb3f0253bb"
+    },
+    {
+      "path": "workflows/dmrcate/config/cohort.json",
+      "mode": "100644",
+      "bytes": 2723,
+      "sha256": "0fbac4c49f0b5c9cd940c47c2b51a1f9a89ed16467416c99a829e0afda327705",
+      "git_blob_sha": "fedaf441b395683d487b4d06911ac2056b67c46a",
+      "local_source_sha256": "6b5fe604e7826af76205bfc749548f8eac026259fa1ded0bd3492567d1d54ce2"
+    },
+    {
+      "path": "workflows/dmrcate/config/smoke.json",
+      "mode": "100644",
+      "bytes": 2764,
+      "sha256": "09518e147fc5ac27ecc0f4f2498cdf7569710aad49c8bc6ef61b6f870edd7691",
+      "git_blob_sha": "f3faa47be7405011f2a64143b28543b00f32bb7e",
+      "local_source_sha256": "0dc9b03c83af49b8918180e8e4c30040fa5b60c11c5238970355451e19447ed1"
+    },
+    {
+      "path": "workflows/dmrcate/container.def",
+      "mode": "100644",
+      "bytes": 139,
+      "sha256": "0c643f915aa66a4b940efba55bf9766fedb3c5b27b9bfd3b7c5126d655af9a79",
+      "git_blob_sha": "3625d15d15e3118e719a0726632ab1c7d17c9787",
+      "local_source_sha256": "0c643f915aa66a4b940efba55bf9766fedb3c5b27b9bfd3b7c5126d655af9a79"
+    },
+    {
+      "path": "workflows/dmrcate/environment.yml",
+      "mode": "100644",
+      "bytes": 622,
+      "sha256": "c8c8216bb05435a56c1c2500faefbb7f4044edf16ce64638864fe45cdb9608ba",
+      "git_blob_sha": "cf8b96c115e83757dc3cf2b36d04bb95eb40ba10",
+      "local_source_sha256": "c8c8216bb05435a56c1c2500faefbb7f4044edf16ce64638864fe45cdb9608ba"
+    },
+    {
+      "path": "workflows/dmrcate/extract_candidate_counts.R",
+      "mode": "100644",
+      "bytes": 2114,
+      "sha256": "92b05099a6f69e1e030c7d54ec2d532e26a35e9ed3cf55663536ad1f1d5aa4af",
+      "git_blob_sha": "976b776d69c42b6e3180a58d8694804770510d45",
+      "local_source_sha256": "92b05099a6f69e1e030c7d54ec2d532e26a35e9ed3cf55663536ad1f1d5aa4af"
+    },
+    {
+      "path": "workflows/dmrcate/model_worker.R",
+      "mode": "100644",
+      "bytes": 709,
+      "sha256": "423027a3e2f5ccdca4f73d79e0830578c57832a31b52c53f52f0ddd7838889cf",
+      "git_blob_sha": "711f2af6fe4557074d12ed24df219f8a90de4f61",
+      "local_source_sha256": "423027a3e2f5ccdca4f73d79e0830578c57832a31b52c53f52f0ddd7838889cf"
+    },
+    {
+      "path": "workflows/dmrcate/prepare.py",
+      "mode": "100644",
+      "bytes": 9881,
+      "sha256": "08da60ef70504ff1b8ccb049c187393729f91838133b97e319d43c87448fdfe7",
+      "git_blob_sha": "a229ba07ee0de10621e38d46efc4cf38199d01fe",
+      "local_source_sha256": "1d25fc49505c99d58aa9e12a1e6d6b5e52ec041b60e8c9230c16167a74ac8e5a"
+    },
+    {
+      "path": "workflows/dmrcate/recover_checkpoint.R",
+      "mode": "100644",
+      "bytes": 7884,
+      "sha256": "924deff36ca2a74baae4377f64ee796bd7a09a8a2b3301b0b9dd0370353f48b4",
+      "git_blob_sha": "88e67fcf408815111d68a3015d11e5b52bf93e91",
+      "local_source_sha256": "924deff36ca2a74baae4377f64ee796bd7a09a8a2b3301b0b9dd0370353f48b4"
+    },
+    {
+      "path": "workflows/dmrcate/recover_checkpoint.sh",
+      "mode": "100644",
+      "bytes": 5886,
+      "sha256": "a810e9e6bafcb28081239eaf1b645c9f2ddfe5cf8bef1f14d086eee3ccf6977e",
+      "git_blob_sha": "527d8371c7aa52e74d683ca69d3565396a6883b2",
+      "local_source_sha256": "019e4f16b0c203aa390a0ffd5789f8269747181b313a3de63857014044a3a738"
+    },
+    {
+      "path": "workflows/dmrcate/run_dmrcate.sh",
+      "mode": "100644",
+      "bytes": 7992,
+      "sha256": "c0c9ee3435a48176394dc3d2a7ca5c86c53343f487cac98dd03bb551d642852d",
+      "git_blob_sha": "6dc3a5b2ddca8cb037b11a6e5b2159fe8d1b3552",
+      "local_source_sha256": "5e96c805c78fff46ff5d6b023b32871b0b94708e9c3bff39fd804120eb4ebfc6"
+    },
+    {
+      "path": "workflows/dmrcate/runtime.lock.json",
+      "mode": "100644",
+      "bytes": 133596,
+      "sha256": "315f868cc08f9bb83fc203d3b660da0c4b507f898cde8c6ec18f00675fcbf42e",
+      "git_blob_sha": "0100f45b90966f2ddec9633ee19776a6abdc27c2",
+      "local_source_sha256": "0e15478f10d6b744943939eac0075a1faf7d8a477b0ed352de5b1c622fe63d6b"
+    },
+    {
+      "path": "workflows/dmrcate/stage_runtime.sh",
+      "mode": "100644",
+      "bytes": 3335,
+      "sha256": "e17f256d9763e00aa158c4131847518c5233729dd260aa7ec12fbb35848a05a1",
+      "git_blob_sha": "b4e287dc1042f4dc8933a7945fdaf345ab242d22",
+      "local_source_sha256": "e17f256d9763e00aa158c4131847518c5233729dd260aa7ec12fbb35848a05a1"
+    },
+    {
+      "path": "workflows/dmrcate/test_checkpoint.R",
+      "mode": "100644",
+      "bytes": 4640,
+      "sha256": "8aa5d36db8318532f8875544e2f006f259cf2a71805b47f1b9ab852829999419",
+      "git_blob_sha": "3c0144808f8bdc544f4c4c448869bdcfdb800009",
+      "local_source_sha256": "8aa5d36db8318532f8875544e2f006f259cf2a71805b47f1b9ab852829999419"
+    },
+    {
+      "path": "workflows/dmrcate/test_compare_healthy_wbc.py",
+      "mode": "100644",
+      "bytes": 2084,
+      "sha256": "d7d6febb6408d29af095cac0ad2ad166c5241992db48a15da5e0d8684faf74a6",
+      "git_blob_sha": "3cbeb1dfb789f9056891cbdf1cb5dcc7c1e48da3",
+      "local_source_sha256": "d7d6febb6408d29af095cac0ad2ad166c5241992db48a15da5e0d8684faf74a6"
+    },
+    {
+      "path": "workflows/dmrcate/test_fixtures.R",
+      "mode": "100644",
+      "bytes": 8326,
+      "sha256": "25ce9af9e4c7a7a25f332d9ee3aa497cfc5570fdc1d34c5deae5bb49f0921215",
+      "git_blob_sha": "2d3d42536c10deb9ffdb59fc55f99d51ef1369c2",
+      "local_source_sha256": "25ce9af9e4c7a7a25f332d9ee3aa497cfc5570fdc1d34c5deae5bb49f0921215"
+    },
+    {
+      "path": "workflows/dmrcate/test_prepare.py",
+      "mode": "100644",
+      "bytes": 1768,
+      "sha256": "1f6d1d9f6699a343485d55b8a061bc5dcd91cd12d0517bc07f2145a0c63a2755",
+      "git_blob_sha": "94c687fc8fc3394d17bbd6529d8f433b1535b3cc",
+      "local_source_sha256": "1f6d1d9f6699a343485d55b8a061bc5dcd91cd12d0517bc07f2145a0c63a2755"
+    },
+    {
+      "path": "workflows/dmrcate/test_runtime.R",
+      "mode": "100644",
+      "bytes": 1779,
+      "sha256": "478aa09e161db2a3f903c7cc87ac5d2ed6f84818f8d204f812b2d3fdfd914d67",
+      "git_blob_sha": "8845ef1e5fe82305c0384b67abd621bb9c76603f",
+      "local_source_sha256": "478aa09e161db2a3f903c7cc87ac5d2ed6f84818f8d204f812b2d3fdfd914d67"
+    },
+    {
+      "path": "workflows/dmrcate/test_validation_gate.py",
+      "mode": "100644",
+      "bytes": 2147,
+      "sha256": "999547dd1697bd3f938a90a7940142b75f498eaba5d12f705aaf73f0a6c78861",
+      "git_blob_sha": "8c1e0ac138708e17f0359a0571d5347b71674249",
+      "local_source_sha256": "999547dd1697bd3f938a90a7940142b75f498eaba5d12f705aaf73f0a6c78861"
+    },
+    {
+      "path": "workflows/dmrcate/validate_checkpoint.sh",
+      "mode": "100644",
+      "bytes": 2383,
+      "sha256": "50f9070e7b7809f0f2d2bf8a167385e6da287f1e9c8566f5e8a421d57365816e",
+      "git_blob_sha": "bb2bb18ec74181f7a3cd97c6ffe3751ba86521aa",
+      "local_source_sha256": "610eea2eebe413d0037dac6730ee3819c0b98dca12d581be406d4a34aa9c012c"
+    },
+    {
+      "path": "workflows/dmrcate/validate_runtime.sh",
+      "mode": "100644",
+      "bytes": 2511,
+      "sha256": "09951ca4f7f5d1d8d36fd8b92e5587b0415aa7e00ccfae93c8d5d97cd4b45fc3",
+      "git_blob_sha": "76f9ff4bbb885c2ba3714ad62465fad511f82c62",
+      "local_source_sha256": "09951ca4f7f5d1d8d36fd8b92e5587b0415aa7e00ccfae93c8d5d97cd4b45fc3"
+    },
+    {
+      "path": "workflows/dmrcate/validation.json",
+      "mode": "100644",
+      "bytes": 16374,
+      "sha256": "3175b8c21b11d48197ebc8565b135512d0a41f3490361b5a1298dd11fb955a7f",
+      "git_blob_sha": "0dc2301c1970740edb599fcdf6be67567f4cbc3b",
+      "local_source_sha256": "a109a843b6a40fe15ac4f010281b96c487d74ff97ffe1a0d42b7017e5a0b46df"
+    },
+    {
+      "path": "workflows/epidish/README.md",
+      "mode": "100644",
+      "bytes": 19569,
+      "sha256": "41b425f64de61f4be0d8e0545c32dae2e6b0c90f77136045fe75b8efa7bdf78b",
+      "git_blob_sha": "5fae2745dd55ab4ebadb2dcebe50b3b649aadcca",
+      "local_source_sha256": "ea98ebffcd34606e12ee05ddb3b0e33ef648a767372dc35cfbc6ddf199198f6d"
+    },
+    {
+      "path": "workflows/epidish/environment.yml",
+      "mode": "100644",
+      "bytes": 162,
+      "sha256": "a492761a7457b9896dd8a5a91f9b0bd14b0e300fa113e198cd15ee6445b94f93",
+      "git_blob_sha": "f41746f494a65d6e2f9aff49ba1a8bf962d34aa1",
+      "local_source_sha256": "a492761a7457b9896dd8a5a91f9b0bd14b0e300fa113e198cd15ee6445b94f93"
+    },
+    {
+      "path": "workflows/epidish/run_epidish_comparison.sh",
+      "mode": "100755",
+      "bytes": 14954,
+      "sha256": "345090d9c719f8c0910b4db15d0e7069b4aaf3c9bb3d1e75a4b7e09b0474a141",
+      "git_blob_sha": "8dcfcbb5d385308abeb59e8a5bd447ef8d20d48b",
+      "local_source_sha256": "4d2bd522249bd75fed07b2e818da7b3b257f525fa22ed234164990cb3cfb71d9"
+    },
+    {
+      "path": "workflows/epidish/scripts/epidish_common.R",
+      "mode": "100644",
+      "bytes": 18982,
+      "sha256": "53280bbd7475eba617cd6cf3ec83529a789d82576ad6b3e5ca175df3f6a0249c",
+      "git_blob_sha": "4bff362e28e474874c9cc7a30632dfdf2f9fcf2f",
+      "local_source_sha256": "53280bbd7475eba617cd6cf3ec83529a789d82576ad6b3e5ca175df3f6a0249c"
+    },
+    {
+      "path": "workflows/epidish/scripts/export_saved_deconvolution.R",
+      "mode": "100644",
+      "bytes": 12706,
+      "sha256": "c1b5f94a3708d2ad114396af29e896b3e533a4534189ff98db8d4888794c9ccf",
+      "git_blob_sha": "f03b1de04108bc8b47805944d45a24b0062a3c59",
+      "local_source_sha256": "c1b5f94a3708d2ad114396af29e896b3e533a4534189ff98db8d4888794c9ccf"
+    },
+    {
+      "path": "workflows/epidish/scripts/finalize_comparisons.R",
+      "mode": "100644",
+      "bytes": 25549,
+      "sha256": "e3ca40b442de38d8869f61b18de1d9090da478353ac0cebc9a8976ab3de782c9",
+      "git_blob_sha": "2c598db0581c27da3360bf4105d98b72e171518a",
+      "local_source_sha256": "e3ca40b442de38d8869f61b18de1d9090da478353ac0cebc9a8976ab3de782c9"
+    },
+    {
+      "path": "workflows/epidish/scripts/plot_epidish_standalone.R",
+      "mode": "100644",
+      "bytes": 11901,
+      "sha256": "2e4a231b0ceff5270e28005fbb1584ca5a254c333806dfd5c73aca2cfc907e29",
+      "git_blob_sha": "9fdedcf8ddd625244849b6556efbef3f70caed98",
+      "local_source_sha256": "2e4a231b0ceff5270e28005fbb1584ca5a254c333806dfd5c73aca2cfc907e29"
+    },
+    {
+      "path": "workflows/epidish/scripts/prepare_epidish.R",
+      "mode": "100644",
+      "bytes": 11004,
+      "sha256": "fc08e33bbff831d76a03fcc72fbf4805c317406c6b3ed3f631cc5279c956d0fe",
+      "git_blob_sha": "b24d927a89382b5c2a682cf38ce23bc6a4837e2e",
+      "local_source_sha256": "fc08e33bbff831d76a03fcc72fbf4805c317406c6b3ed3f631cc5279c956d0fe"
+    },
+    {
+      "path": "workflows/epidish/scripts/recovery_contract.py",
+      "mode": "100644",
+      "bytes": 12955,
+      "sha256": "f6350a9403090d7dbb743caab93faaee4a714fea18be95e8bb64cde9b9b1b95f",
+      "git_blob_sha": "ef679954b14af0e8f2f1fd9ae236652403a30493",
+      "local_source_sha256": "f6350a9403090d7dbb743caab93faaee4a714fea18be95e8bb64cde9b9b1b95f"
+    },
+    {
+      "path": "workflows/epidish/scripts/refresh_composition_plots.R",
+      "mode": "100644",
+      "bytes": 4878,
+      "sha256": "3c4e4b175360cdf6dd6e8c4ac0469ff9527ef65eaf176b89ade7291455966cf3",
+      "git_blob_sha": "b05efa9842e078a21075680d5419125565e0c150",
+      "local_source_sha256": "3c4e4b175360cdf6dd6e8c4ac0469ff9527ef65eaf176b89ade7291455966cf3"
+    },
+    {
+      "path": "workflows/epidish/scripts/reuse_matched_uxm.R",
+      "mode": "100644",
+      "bytes": 9548,
+      "sha256": "311e82d4c2ccb1f73396432e5abf5414cdeac795e5e3fad4862b39e396302c88",
+      "git_blob_sha": "74e3f7db1e8f24556507341bf57ada5680b5dee6",
+      "local_source_sha256": "311e82d4c2ccb1f73396432e5abf5414cdeac795e5e3fad4862b39e396302c88"
+    },
+    {
+      "path": "workflows/epidish/scripts/run_unweighted_nnls.py",
+      "mode": "100644",
+      "bytes": 7568,
+      "sha256": "534ba276518bcb3b501cc9ce134707195129604231505a7c726a9945e5140696",
+      "git_blob_sha": "869baf03162422bd423aa37d23aa9040238b3cf5",
+      "local_source_sha256": "534ba276518bcb3b501cc9ce134707195129604231505a7c726a9945e5140696"
+    },
+    {
+      "path": "workflows/epidish/scripts/test_recovery_contract.py",
+      "mode": "100644",
+      "bytes": 33601,
+      "sha256": "e379d2c6be408b4510c453c6ab2b898d7a479a29fdd7928d43c92ef511498962",
+      "git_blob_sha": "cde5d5628ce56976400e01f50cd2bfcc5b976872",
+      "local_source_sha256": "e379d2c6be408b4510c453c6ab2b898d7a479a29fdd7928d43c92ef511498962"
+    },
+    {
+      "path": "workflows/epidish/scripts/test_synthetic.R",
+      "mode": "100644",
+      "bytes": 4834,
+      "sha256": "a4bbf306e6ea77a7ad13b34add94baeb97a04ca4a8cfc11bf088f8108a555d71",
+      "git_blob_sha": "1a13dbd5ea230a7a62faca285e2b05f5da00f758",
+      "local_source_sha256": "a4bbf306e6ea77a7ad13b34add94baeb97a04ca4a8cfc11bf088f8108a555d71"
+    },
+    {
+      "path": "workflows/epidish/scripts/validate_comparison.R",
+      "mode": "100644",
+      "bytes": 11793,
+      "sha256": "ad9f15a698a2db6e31c4a733ce855fa8db739f9be8e90f60b2a97caa4aed9156",
+      "git_blob_sha": "50ee0ed9b5e537dcbd7a20f90c1fb2c73e799b1e",
+      "local_source_sha256": "ad9f15a698a2db6e31c4a733ce855fa8db739f9be8e90f60b2a97caa4aed9156"
+    },
+    {
+      "path": "workflows/output_contract.py",
+      "mode": "100755",
+      "bytes": 3471,
+      "sha256": "0031e9e061a4e58743b60ec2b3784ae5f1797556e4debfd0565979972d69878a",
+      "git_blob_sha": "74902864e882673b3b14a08224441da6a2825341",
+      "local_source_sha256": "0031e9e061a4e58743b60ec2b3784ae5f1797556e4debfd0565979972d69878a"
+    },
+    {
+      "path": "workflows/pat/README.md",
+      "mode": "100644",
+      "bytes": 5729,
+      "sha256": "ce99f01f752c3fe83934d489fc891cb5673b44482c02f6264ac66053b8c0c439",
+      "git_blob_sha": "ecd7455d0b6b3a5279c1b774b73a57c887174351",
+      "local_source_sha256": "8c88f6c34e28766e8ea0955f528e4d85940c9b14d0db33daa39a4bac5c89f681"
+    },
+    {
+      "path": "workflows/pat/launch_pat.py",
+      "mode": "100755",
+      "bytes": 9922,
+      "sha256": "45d0f471ef6647c210cb57d6d624122823f5b8e55d344f2df803a8833466abea",
+      "git_blob_sha": "e3b86ed963314598089b1fa3e49cd6b942c21362",
+      "local_source_sha256": "ce7246cad0da4d39e6c9dc397fe1fc9d85dc8b8b665e4ba1e7322b3a4b59bcdf"
+    },
+    {
+      "path": "workflows/pat/prepare_pat.py",
+      "mode": "100755",
+      "bytes": 29278,
+      "sha256": "924867e81096fbfbb510b50f99275624f73ef1e046f4cf683742be19a8233a76",
+      "git_blob_sha": "94b0e847eb26d013c9b1d821456eb50224a17373",
+      "local_source_sha256": "35af46d3bd68edbe5a3b3253f1db369d776efcc71b9b69d9fbc8e86e9923f916"
+    },
+    {
+      "path": "workflows/pat/run_prepare_pat.sh",
+      "mode": "100755",
+      "bytes": 964,
+      "sha256": "6409b636671d08c2b67e1fce0b780f4f1887c9a12056e16b79f06e6162081a8b",
+      "git_blob_sha": "bff3084ddc7409e74aa409e58bba4284894044a0",
+      "local_source_sha256": "b61560029d8e6b55351c7bebdde2c411a5fa28876c08df8c0ecebf9c80d79f20"
+    },
+    {
+      "path": "workflows/pat/validate_pat_manifest.py",
+      "mode": "100755",
+      "bytes": 3660,
+      "sha256": "e4abfcfc68410eb14801f5ac84074487e7f889ef3a79c5358c7b62c7e35290ea",
+      "git_blob_sha": "599e81e855004af507be4a384f1b040ce4e439c2",
+      "local_source_sha256": "54acea5cb48b94e31afe677bbc557812ae5fe831da4eadeb770b95c6596d8393"
+    },
+    {
+      "path": "workflows/uxm/README.md",
+      "mode": "100644",
+      "bytes": 9259,
+      "sha256": "7f47b6268343808ad1de69a84c13798cdbfa38c9e59f24c46bb9882d07c2183e",
+      "git_blob_sha": "d08916fbd635fa6739cced38124e0f2acb57858e",
+      "local_source_sha256": "41af7f53ab56eab4333cd28a287cf08baa78de59089f1af329909a768b5eda84"
+    },
+    {
+      "path": "workflows/uxm/export_u25_targets.py",
+      "mode": "100644",
+      "bytes": 13188,
+      "sha256": "bac3edd9553725eea915c9c569e6880e376873b2cb82b79ca278d32d88006dd6",
+      "git_blob_sha": "eca28e8beddd8fac4897332766f87ef07e7b6009",
+      "local_source_sha256": "bac3edd9553725eea915c9c569e6880e376873b2cb82b79ca278d32d88006dd6"
+    },
+    {
+      "path": "workflows/uxm/run_hematopoietic_deconvolution.sh",
+      "mode": "100755",
+      "bytes": 828,
+      "sha256": "00edbe5fdbd5da0f1652db4f3cecd035c0ecab020c02ba67dec137f57e2c9e64",
+      "git_blob_sha": "d1e88b385fc1ba5552890e2264375ad35a0a19f0",
+      "local_source_sha256": "42453993ea862863add43ce5fd9fbd99c5577b32e5a5475092c0b962c821ad2b"
+    },
+    {
+      "path": "workflows/uxm/run_lineage_deconvolution.sh",
+      "mode": "100755",
+      "bytes": 10151,
+      "sha256": "a4a489d1a7790833ecb4c6353ced03b4c4aa986112cdfce01ac513b28bdc1f69",
+      "git_blob_sha": "74cfd0a979209075a836c92b4b8a62bad5edc914",
+      "local_source_sha256": "42978d87bbe922b9efa36c2c4ec15e3be80c849c3943a83ced243f008ad0c2b6"
+    }
+  ],
+  "export_policy": "Replace site-specific absolute path prefixes and coded identifiers in documentation examples with explicit templates; preserve local source and scientific settings",
+  "local_source_commit": "679d5c84566a2068a3863a95ccf16d0f90b3e21e",
+  "export_checks": {
+    "coded_patient_or_sample_identifiers": 0,
+    "original_site_specific_absolute_prefixes": 0,
+    "new_metadata_or_samplesheet_tables": 0,
+    "published_tables_preserved_from_parent": true
+  },
+  "export_transformations": {
+    "coded_identifiers_in_documentation_examples": "Replaced by SAMPLE_01-style labels; no clinical values or specimen tables exported",
+    "site_specific_paths": "Replaced by /path/to/hpc-home, /path/to/hpc-scratch and /path/to/hpc-storage",
+    "local_execution_source": "Unchanged",
+    "scientific_numeric_settings": "Unchanged"
+  }
+}

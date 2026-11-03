@@ -1,0 +1,14 @@
+{
+  "checkpoint": "23213ecb88bdcdc4343282a945a3d70d7132a815",
+  "recorded_utc": "2026-10-06T14:24:30.616258+00:00",
+  "tracked_tree_clean": true,
+  "staged_list_empty": true,
+  "ignore_rules_reviewed": true,
+  "representative_exclusions_checked": [
+    "*.pat.gz",
+    "*.sif",
+    "downstream/**/software/",
+    "downstream/**/results"
+  ],
+  "unrelated_untracked_preserved": true
+}

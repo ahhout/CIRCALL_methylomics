@@ -1,0 +1,36 @@
+{
+  "started_utc": "2026-10-06T09:06:51+00:00",
+  "checkpoint": "b72256940d447450b213e94d38269b60f1b0fd22",
+  "scope": "Source-only refactor; existing data, scratch bundles and upstream source retained in place",
+  "source_path_map": {
+    "downstream/workflows/deconflow/stage_runtime.py": "downstream/workflows/deconflow/tools/stage_runtime.py",
+    "downstream/workflows/deconflow/stage_runtime.sh": "downstream/workflows/deconflow/tools/stage_runtime.sh",
+    "downstream/workflows/deconflow/reference.py": "downstream/workflows/deconflow/tools/reference.py",
+    "downstream/workflows/deconflow/run_reference.sh": "downstream/workflows/deconflow/tools/run_reference.sh",
+    "downstream/workflows/deconflow/validate_runtime.py": "downstream/workflows/deconflow/tools/validate_runtime.py",
+    "downstream/workflows/deconflow/validate_runtime.sh": "downstream/workflows/deconflow/tools/validate_runtime.sh",
+    "downstream/workflows/deconflow/compare.py": "downstream/workflows/deconflow/tools/compare.py"
+  },
+  "completed_utc": "2026-10-06T09:15:48+00:00",
+  "status": "complete",
+  "changes": [
+    "Move one-time staging, reference preparation, fixtures and comparison into tools/",
+    "Replace generated Groovy and scientific parameter dictionaries with explicit config/ files",
+    "Remove comparison imports from patient execution",
+    "Limit native resume fingerprints to actual fitting inputs",
+    "Keep one complete provenance code snapshot"
+  ],
+  "validation": {
+    "unit_tests": {
+      "passed": 11,
+      "command": "env -u SLURM_JOB_ID /path/to/hpc-home/.conda/envs/nextflow/bin/python -m unittest discover -s downstream/workflows/deconflow/tests -v"
+    },
+    "nextflow_configuration": "83 settings matched the checkpoint for each of patient and fixture configurations",
+    "bash_syntax": "passed",
+    "python_compilation": "passed",
+    "git_diff_check": "passed",
+    "patient_or_fixture_pipeline_submitted": false
+  },
+  "reference_gate": "blocked",
+  "retained_tools_note": "Preparation and migration code was retained; the reduction is in routine dependencies and generated/duplicated logic, not removal of all custom code."
+}

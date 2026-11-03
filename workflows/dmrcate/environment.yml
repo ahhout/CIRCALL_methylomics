@@ -1,0 +1,15 @@
+name: dmrcate-bioc322
+# Runtime input contract. The finished SIF and complete installed package table
+# are frozen together; analysis never resolves or installs dependencies.
+base_image: quay.io/biocontainers/bioconductor-dmrcate@sha256:087f3de6dc74dfef71256099acb6213618507cba92f8e9e79b622840bfb0f7f5
+bioconductor: '3.22'
+packages:
+  DMRcate: '3.6.0'
+  bsseq: inherited-from-digest
+  Biostrings: inherited-from-digest
+  edgeR: inherited-from-digest
+  HDF5Array: inherited-from-digest
+  rtracklayer: inherited-from-digest
+  jsonlite: inherited-from-digest
+outputs: native-DMRcate-objects-and-TSV-tables
+apptainer: '1.3.6'

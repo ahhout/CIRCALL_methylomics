@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "2026-09-17T00:26:26Z",
+  "manifest": "/path/to/hpc-home/em_seq/references/uxm_atlas_pat/download_manifest.tsv",
+  "output_dir": "/path/to/hpc-home/em_seq/references/uxm_atlas_pat",
+  "total_samples": 207,
+  "total_files": 414,
+  "total_bytes": 75342976039,
+  "results": {
+    "DOWNLOADED": 340,
+    "CACHED": 74,
+    "DRY_RUN": 0,
+    "ERROR": 0,
+    "SIZE_MISMATCH": 0
+  },
+  "errors": []
+}

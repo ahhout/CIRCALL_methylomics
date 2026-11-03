@@ -1,0 +1,39 @@
+{
+  "started_utc": "2026-10-06T09:12:26+00:00",
+  "upstream_commit": "4195f65ad986ea5a68129d2da5b2b1effed25bc8",
+  "checks": [
+    {
+      "fixture": false,
+      "settings_checked": 83,
+      "differences": {},
+      "status": "passed",
+      "command": [
+        "/path/to/hpc-home/.conda/envs/nextflow/bin/nextflow",
+        "-c",
+        "/path/to/hpc-scratch/tmp/deconflow-config-2s3cu7gj/after-False.config",
+        "config",
+        "/path/to/hpc-scratch/tmp/em_seq/downstream/deconflow/2026-10-05_14-36-deconflow-runtime-v2/DecoNFlow-4195f65ad986ea5a68129d2da5b2b1effed25bc8",
+        "-profile",
+        "apptainer",
+        "-flat"
+      ]
+    },
+    {
+      "fixture": true,
+      "settings_checked": 83,
+      "differences": {},
+      "status": "passed",
+      "command": [
+        "/path/to/hpc-home/.conda/envs/nextflow/bin/nextflow",
+        "-c",
+        "/path/to/hpc-scratch/tmp/deconflow-config-2s3cu7gj/after-True.config",
+        "config",
+        "/path/to/hpc-scratch/tmp/em_seq/downstream/deconflow/2026-10-05_14-36-deconflow-runtime-v2/DecoNFlow-4195f65ad986ea5a68129d2da5b2b1effed25bc8",
+        "-profile",
+        "apptainer",
+        "-flat"
+      ]
+    }
+  ],
+  "completed_utc": "2026-10-06T09:12:38+00:00"
+}

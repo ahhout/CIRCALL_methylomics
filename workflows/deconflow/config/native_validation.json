@@ -1,0 +1,27 @@
+{
+  "runtime_lock": "c5c5db6223d3eaac8ae2d2d59380651a26bbd2b8086d2bf56ab585304139eec0",
+  "completed_utc": "2026-10-05T15:21:01+00:00",
+  "checks": [
+    {
+      "method": "uxm",
+      "status": "passed",
+      "checks": [
+        "known mixtures",
+        "sample labels",
+        "fraction bounds",
+        "resume"
+      ]
+    },
+    {
+      "method": "epidish",
+      "status": "passed",
+      "checks": [
+        "known mixtures",
+        "sample labels",
+        "fraction bounds",
+        "resume"
+      ]
+    }
+  ],
+  "execution": "Slurm; NXF_OFFLINE=true; pre-staged plugin/images; invalid HTTP proxies"
+}

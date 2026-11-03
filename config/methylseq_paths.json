@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "pipeline_root": "/path/to/hpc-home/preprocessing/methylseq",
+  "runtime_root": "/path/to/hpc-home/analysis/CIRCALL_methylomics/runs/methylseq",
+  "work_root": "/path/to/hpc-scratch/tmp/em_seq/work_emseq_integrated",
+  "maintenance_lock": "/path/to/hpc-scratch/tmp/em_seq/.methylseq-cache-maintenance.lock",
+  "results_parent": "/path/to/hpc-scratch/nextflow/nf-core-methylseq/results/bulk",
+  "reference_root": "/path/to/hpc-home/analysis/CIRCALL_methylomics/references/emseq_hg38_lambda_puc19",
+  "container_cache": "/path/to/hpc-scratch/nextflow/apptainer_cache"
+}

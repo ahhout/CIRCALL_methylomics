@@ -1,0 +1,8 @@
+{
+  "checked_utc": "2026-10-05T15:17:25+00:00",
+  "markers_checked": 979,
+  "atlas_sha256": "e58fbec4fe6200a311540c6e1a16be901a2d1e9ed9d74b6a57888f2feb635f51",
+  "cpg_dictionary_sha256": "28180d18667dc0a6e66dd4250593e03a8bf10be50e9212aefd4e9282afea8590",
+  "endpoints": "start=startCpG; end-1=endCpG-1 in the canonical dictionary",
+  "status": "passed"
+}

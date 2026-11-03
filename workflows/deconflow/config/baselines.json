@@ -1,0 +1,14 @@
+[
+  {
+    "cohort": "baseline8",
+    "uxm": "/path/to/hpc-home/analysis/CIRCALL_methylomics/workflows/uxm/results/2026-09-10_11-19-emseq-integrated-8samples-trim-8-3-3-10-v1-uxm-full-atlas",
+    "epidish": "/path/to/hpc-home/analysis/CIRCALL_methylomics/workflows/epidish/results/2026-09-10_15-01-emseq-integrated-8samples-trim-8-3-3-10-v1-epidish-comparison",
+    "uxm_hematopoietic": "/path/to/hpc-home/analysis/CIRCALL_methylomics/workflows/uxm/results/2026-09-10_12-33-emseq-integrated-8samples-trim-8-3-3-10-v1-uxm-hematopoietic"
+  },
+  {
+    "cohort": "new4",
+    "uxm": "/path/to/hpc-home/analysis/CIRCALL_methylomics/workflows/uxm/results/2026-09-24_20-57-emseq-integrated-heh-4new-trim-8-3-3-10-v1-uxm-full-atlas",
+    "epidish": "/path/to/hpc-home/analysis/CIRCALL_methylomics/workflows/epidish/results/2026-09-25_00-04-emseq-integrated-heh-4new-trim-8-3-3-10-v1-epidish-comparison",
+    "uxm_hematopoietic": "/path/to/hpc-home/analysis/CIRCALL_methylomics/workflows/uxm/results/2026-09-24_22-38-emseq-integrated-heh-4new-trim-8-3-3-10-v1-uxm-hematopoietic"
+  }
+]

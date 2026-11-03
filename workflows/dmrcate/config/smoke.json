@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "status": "undergoing validation",
+  "samples": "/path/to/hpc-home/analysis/CIRCALL_methylomics/workflows/dmrcate/config/samples.tsv",
+  "runtime": "/path/to/hpc-scratch/tmp/em_seq/downstream/dmrcate/2026-09-29_14-28-runtime-bioc322-v2",
+  "scratch_root": "/path/to/hpc-scratch/tmp/em_seq/downstream/dmrcate",
+  "reference_manifest": "/path/to/hpc-scratch/nextflow/nf-core-methylseq/references/wgbstools_hg38_lambda_puc19_v1/manifest.tsv",
+  "reference_fasta": "/path/to/hpc-scratch/nextflow/nf-core-methylseq/references/wgbstools_hg38_lambda_puc19_v1/BismarkIndex/genome.fa",
+  "reference_sha256": "ef6b38605df06546ef2a28cd4d353a7dec183d1ecc6ea7a680e890e85a0313eb",
+  "namespace": "/path/to/hpc-home/.conda/envs/nextflow/share/wgbs_tools/references/hg38/CpG.bed.gz",
+  "chrom_sizes": "/path/to/hpc-home/.conda/envs/nextflow/share/wgbs_tools/references/hg38/chrome.size",
+  "chromosomes": [
+    "chr1",
+    "chr2",
+    "chr3",
+    "chr4",
+    "chr5",
+    "chr6",
+    "chr7",
+    "chr8",
+    "chr9",
+    "chr10",
+    "chr11",
+    "chr12",
+    "chr13",
+    "chr14",
+    "chr15",
+    "chr16",
+    "chr17",
+    "chr18",
+    "chr19",
+    "chr20",
+    "chr21",
+    "chr22",
+    "chrX",
+    "chrY"
+  ],
+  "min_coverage": 3,
+  "fdr": 0.05,
+  "lambda": 1000,
+  "C": 2,
+  "min_cpgs": 2,
+  "contrasts": [
+    [
+      "BM",
+      "PB"
+    ],
+    [
+      "cfDNA",
+      "BM"
+    ],
+    [
+      "cfDNA",
+      "PB"
+    ]
+  ],
+  "smoke_interval": [
+    "chr22",
+    20000000,
+    21000000
+  ],
+  "deconvolution_context": "Existing UXM and EpiDISH results and atlas choices are preserved; see /path/to/hpc-home/analysis/CIRCALL_methylomics/RESULTS.md. No new deconvolution is performed.",
+  "upstream_params": [
+    "/path/to/hpc-scratch/nextflow/nf-core-methylseq/results/bulk/2026-08-31_10-02-emseq-integrated-8samples-trim-8-3-3-10-v1/pipeline_info/params_2026-08-31_12-03-12.json",
+    "/path/to/hpc-scratch/nextflow/nf-core-methylseq/results/bulk/2026-09-16_08-08-emseq-integrated-heh-4new-trim-8-3-3-10-v1/pipeline_info/params_2026-09-16_10-09-28.json",
+    "/path/to/hpc-scratch/nextflow/nf-core-methylseq/results/bulk/2026-09-16_08-08-emseq-integrated-heh-4new-trim-8-3-3-10-v1/pipeline_info/params_2026-09-21_11-35-35.json"
+  ],
+  "control_qc": [
+    "/path/to/hpc-scratch/nextflow/nf-core-methylseq/results/bulk/2026-08-31_10-02-emseq-integrated-8samples-trim-8-3-3-10-v1/control_qc/control_qc.tsv",
+    "/path/to/hpc-scratch/nextflow/nf-core-methylseq/results/bulk/2026-09-16_08-08-emseq-integrated-heh-4new-trim-8-3-3-10-v1/control_qc/control_qc.tsv"
+  ],
+  "runtime_validation": "/path/to/hpc-home/analysis/CIRCALL_methylomics/runs/dmrcate/validation/2026-11-02_13-20-dmrcate-relocation-validation-v2",
+  "output_contract": "essential-tables-v1"
+}

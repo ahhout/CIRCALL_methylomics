@@ -1,0 +1,135 @@
+{
+  "recorded_utc": "2026-10-06T10:52:15+00:00",
+  "started_utc": "2026-10-06T10:37:31+00:00",
+  "completed_utc": "2026-10-06T10:50:11+00:00",
+  "status": "passed",
+  "bundle": "/path/to/hpc-scratch/tmp/em_seq/downstream/deconflow/2026-10-06_10-36-deconflow-fragments-all12-v3",
+  "jobs": {
+    "triplet": "6000453",
+    "recovery": "6000471",
+    "cohort": "6000473"
+  },
+  "scheduler_states": "all COMPLETED with ExitCode 0:0",
+  "versions": {
+    "DecoNFlow": "2.5.0",
+    "commit": "4195f65ad986ea5a68129d2da5b2b1effed25bc8",
+    "EpiDISH": "2.20.0",
+    "RPC_maxit": 10000
+  },
+  "scope": "saved full-atlas inputs for all twelve samples; original cohort masks",
+  "code": {
+    "fragments.py": "f2c60365ceb6c8a53d18326da249d1b2d2678dd4e372be01e5c7f98de2065e3e",
+    "analysis.py": "3512d10bc58544d8d4ede46a1a723cd7720449dcb0b26f3fc43c2d817bb59abb",
+    "native.py": "4f4096c98147c9cb48ec791ad69081e4b608df167aeca06a288857ac83e05685",
+    "common.py": "99b9e2e70089fe572c3be1b9007f8b89bbbca6e76d32026f257de5503c28254f",
+    "run_deconflow.sh": "0156e7c02e556f354aec34326a9c2494a7919f3a07faa821b5a409b23a8850a8",
+    "fragments.nf": "e8b3a1bd21690e8f3c62770a75d8eea3dd9cb5938bfa2728594cd6b2062dc77b",
+    "config/fixtures.config": "703e4be2af2a7c44f12767eee8290ea0be6074f1642ab403e0a33d230475b5c3",
+    "config/fragments.config": "8df538b69edb325d47f5435e9624a8014c34976439aa622f916392c692ff44ec",
+    "config/flamingo.config": "c8a20179f65855da4ed0efbd80dfce119bf998acbb3a08b84e812ee52da8422c",
+    "config/params.uxm.json": "e79319c2f711810baf0fc10e5f5d73ce670acff61f9c20496509d37da1d3cfb2",
+    "config/params.epidish.json": "f3493183594b3226f808431bfcb8e1a4b8a0b74571e58126e57f9dd0376a6e77"
+  },
+  "comparison": {
+    "epidish": {
+      "estimates": 1440,
+      "maximum_absolute_difference_pp": 4.1849819659106,
+      "mean_absolute_difference_pp": 0.011841612753866344
+    },
+    "uxm": {
+      "estimates": 480,
+      "maximum_absolute_difference_pp": 0.0,
+      "mean_absolute_difference_pp": 0.0
+    }
+  },
+  "cohort_traces": [
+    {
+      "trace": "cohort/epidish/baseline8_ge1/pipeline_info/execution_trace_cohort_baseline8_ge1.txt",
+      "sha256": "1e2a820324701375550e97b2aa885e0b12fe72995039660eaab96d1ddb99d1dc",
+      "status": "COMPLETED",
+      "native_r_warnings": []
+    },
+    {
+      "trace": "cohort/epidish/baseline8_ge10/pipeline_info/execution_trace_cohort_baseline8_ge10.txt",
+      "sha256": "70a91977134e18b88d4c5f06069eef691b1fe11322a1c4ff3402b034a81e8508",
+      "status": "COMPLETED",
+      "native_r_warnings": []
+    },
+    {
+      "trace": "cohort/epidish/baseline8_ge5/pipeline_info/execution_trace_cohort_baseline8_ge5.txt",
+      "sha256": "29ab25d12a934ade8baf10ef71212fea0be558f950e11bee3cc8d835c115c4e5",
+      "status": "COMPLETED",
+      "native_r_warnings": []
+    },
+    {
+      "trace": "cohort/epidish/new4_ge1/pipeline_info/execution_trace_cohort_new4_ge1.txt",
+      "sha256": "00b355a9858ba79369c77cac9772d169cedc3e77c18d8d3b37d7ecbdf8911d8a",
+      "status": "COMPLETED",
+      "native_r_warnings": []
+    },
+    {
+      "trace": "cohort/epidish/new4_ge3/pipeline_info/execution_trace_cohort_new4_ge3.txt",
+      "sha256": "8b2f15bbf2b380085619238a92554b0b774deacb3e06552d381895a6eddc5ec2",
+      "status": "COMPLETED",
+      "native_r_warnings": []
+    },
+    {
+      "trace": "cohort/epidish/new4_ge5/pipeline_info/execution_trace_cohort_new4_ge5.txt",
+      "sha256": "c0e1ef2d47a2a068276056038cd8b70907eb45dcc012413ff193481a648a27ea",
+      "status": "COMPLETED",
+      "native_r_warnings": []
+    },
+    {
+      "trace": "cohort/uxm/pipeline_info/execution_trace_cohort.txt",
+      "sha256": "f979b493534d541ba93717693cafc752ca638700c5f778859ece9813090e22a2",
+      "status": "COMPLETED",
+      "native_r_warnings": []
+    }
+  ],
+  "recovery": {
+    "started_utc": "2026-10-06T10:41:41+00:00",
+    "status": "passed",
+    "job": "6000471",
+    "original_execution_started_utc": "2026-10-06T10:37:31+00:00",
+    "before": {
+      "triplet/epidish/baseline8_ge1/deconvolution_results/reference_based/epidish/epidish_res_RPC.csv": "a9a3bb8fa4e2cea5c4980b802766e563d5dd04921f045e0c04eec1078c92db96",
+      "triplet/epidish/baseline8_ge10/deconvolution_results/reference_based/epidish/epidish_res_RPC.csv": "f3a66b4db5c6069df3437fa29802b1dfc51b32b8e841ce3cb248ee2715d798cf",
+      "triplet/epidish/baseline8_ge5/deconvolution_results/reference_based/epidish/epidish_res_RPC.csv": "c15944e454933188c1811c6889e12343d8f8493391324a5715fa05a3d4b89be4",
+      "triplet/uxm/deconvolution_results/reference_based/uxm/output.csv": "0ea96da6c52c4be62725f6f5d13776de5ae278bb162262ddff50460299a756d5"
+    },
+    "completed_utc": "2026-10-06T10:44:15+00:00",
+    "checks": [
+      {
+        "trace": "triplet/epidish/baseline8_ge1/pipeline_info/execution_trace_triplet_baseline8_ge1.txt",
+        "statuses": [
+          "CACHED"
+        ]
+      },
+      {
+        "trace": "triplet/epidish/baseline8_ge10/pipeline_info/execution_trace_triplet_baseline8_ge10.txt",
+        "statuses": [
+          "CACHED"
+        ]
+      },
+      {
+        "trace": "triplet/epidish/baseline8_ge5/pipeline_info/execution_trace_triplet_baseline8_ge5.txt",
+        "statuses": [
+          "CACHED"
+        ]
+      },
+      {
+        "trace": "triplet/uxm/pipeline_info/execution_trace_triplet.txt",
+        "statuses": [
+          "CACHED"
+        ]
+      }
+    ],
+    "identical_fractions": true,
+    "original_start_preserved": true
+  },
+  "local_tests": 14,
+  "limitations": [
+    "New-sample fragment-matrix preparation and hematopoietic-profile integration remain follow-up scope.",
+    "Computational checks do not establish biological accuracy."
+  ]
+}

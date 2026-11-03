@@ -1,0 +1,160 @@
+{
+  "runtime": "/path/to/hpc-scratch/tmp/em_seq/downstream/deconflow/2026-10-05_14-36-deconflow-runtime-v2",
+  "execution": {
+    "started_utc": "2026-10-05T14:35:15+00:00",
+    "status": "complete",
+    "completed_utc": "2026-10-05T14:44:14+00:00"
+  },
+  "images": {
+    "uxm": {
+      "tag": "egiuili/uxm:v1",
+      "index_digest": "sha256:60ce54d9b6f3ace60fa21bb4f90de12f727ea978ac8854a0aef345b572f47f44",
+      "platform": "linux/amd64",
+      "image": "docker://egiuili/uxm@sha256:2d01e6d3e9fd9d3d2d929d373990737de758b34e601149330d061a06038c9be3",
+      "sif": "/path/to/hpc-scratch/tmp/em_seq/downstream/deconflow/2026-10-05_14-36-deconflow-runtime-v2/images/uxm.sif",
+      "sha256": "ba5850903db52a2defde715535c966896755290bdcf4ac8b332da3edb5c0937e"
+    },
+    "epidish": {
+      "tag": "egiuili/epidish:v1",
+      "index_digest": "sha256:5c620d9727ab00ec6f23c513bcaa8ff35c067c075d829ff09e0c0a36bc542c8c",
+      "platform": "linux/amd64",
+      "image": "docker://egiuili/epidish@sha256:e690e5f7f9b387d6a56bb9f4d8a3923f8a86f2760eb8207fa589c471f5b45c2d",
+      "sif": "/path/to/hpc-scratch/tmp/em_seq/downstream/deconflow/2026-10-05_14-36-deconflow-runtime-v2/images/epidish.sif",
+      "sha256": "c8a50b602d01efe144945a4a86d8b482b93b0da787eef246bfce409d9f7e2cea"
+    },
+    "preprocessing": {
+      "tag": "egiuili/bedtools_preprocessing:v2",
+      "index_digest": "sha256:96e852765c705ceb395af7b7481dadd9e26687d70715be3cb02a9a63ed1436cb",
+      "platform": "linux/amd64",
+      "image": "docker://egiuili/bedtools_preprocessing@sha256:7dce4352391e986cbb06fa7ed69b5a7a0aad2670a1caafe41219fc0cc9fc1787",
+      "sif": "/path/to/hpc-scratch/tmp/em_seq/downstream/deconflow/2026-10-05_14-36-deconflow-runtime-v2/images/preprocessing.sif",
+      "sha256": "82fdc4d035f472b48a78c3b69409696111bd7f6292ffc5135d8b22380f9d76b2"
+    },
+    "python": {
+      "tag": "egiuili/python3-3.9.16:v1",
+      "index_digest": "sha256:531f9abf35be4b6a754272d1cd76c2abf7ed6958617ff349e606b12e65064340",
+      "platform": "linux/amd64",
+      "image": "docker://egiuili/python3-3.9.16@sha256:9f8099c2dbf5247b4b3c7a3be264d05be90d33fca1b60becae9cdc43b5646a25",
+      "sif": "/path/to/hpc-scratch/tmp/em_seq/downstream/deconflow/2026-10-05_14-36-deconflow-runtime-v2/images/python.sif",
+      "sha256": "c008f5a9706ba47d1cdc23ca83602bbfd422cd29025720c2775539864169be02"
+    }
+  },
+  "versions": {
+    "EpiDISH": "2.20.0",
+    "wgbstools": "0.2.0",
+    "samtools": "1.11"
+  },
+  "stage_job": "5992563",
+  "runtime_validation": {
+    "job": "5992977",
+    "bundle": "/path/to/hpc-scratch/tmp/em_seq/downstream/deconflow/2026-10-05_15-11-deconflow-fixtures-v5",
+    "status": "passed",
+    "controller": "2 CPUs, 8 GB, shortq, 1h",
+    "tasks": "2 CPUs, 4 GB, 20m",
+    "scheduler_update": "scontrol update JobId=5992977 TimeLimit=01:00:00 Partition=shortq",
+    "recorded_utc": "2026-10-05T15:13:22+00:00",
+    "acceptance": {
+      "runtime_lock": "c5c5db6223d3eaac8ae2d2d59380651a26bbd2b8086d2bf56ab585304139eec0",
+      "completed_utc": "2026-10-05T15:21:01+00:00",
+      "checks": [
+        {
+          "method": "uxm",
+          "status": "passed",
+          "checks": [
+            "known mixtures",
+            "sample labels",
+            "fraction bounds",
+            "resume"
+          ]
+        },
+        {
+          "method": "epidish",
+          "status": "passed",
+          "checks": [
+            "known mixtures",
+            "sample labels",
+            "fraction bounds",
+            "resume"
+          ]
+        }
+      ],
+      "execution": "Slurm; NXF_OFFLINE=true; pre-staged plugin/images; invalid HTTP proxies"
+    },
+    "execution": {
+      "started_utc": "2026-10-05T15:13:40+00:00",
+      "status": "complete",
+      "completed_utc": "2026-10-05T15:21:01+00:00"
+    },
+    "accounting": {
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "00:07:36",
+      "allocated_cpus": 2,
+      "requested_memory": "8G",
+      "batch_max_rss_kib": 914456
+    }
+  },
+  "reference_gate": "not required for the active UXM-fragment route; reconstructed beta reference remains unresolved",
+  "patient_runs_submitted": true,
+  "active_route": {
+    "entrypoint": "run_deconflow.sh --plan config/plan.pats.json --phase cohort",
+    "inputs": "explicit indexed hg38 PAT samplesheet; no prior custom UXM/EpiDISH results required",
+    "profiles": [
+      "full",
+      "hematopoietic"
+    ],
+    "fitting": "unchanged upstream modules; native parameters",
+    "analysis_job": "6003113",
+    "recovery_job": "6003254",
+    "bundle": "/path/to/hpc-scratch/tmp/em_seq/downstream/deconflow/2026-10-06_14-33-deconflow-pat-full-heme-all12-v1",
+    "status": "PAT preparation, both native profiles and representative cached recovery passed",
+    "validation": "config/pat_route_validation.json",
+    "recorded_utc": "2026-10-06T15:02:06+00:00",
+    "comparison": {
+      "epidish/full": {
+        "estimates": 1440,
+        "mean_absolute_difference_pp": 0.011841612753865433,
+        "maximum_absolute_difference_pp": 4.1849819659106
+      },
+      "epidish/hematopoietic": {
+        "estimates": 252,
+        "mean_absolute_difference_pp": 0.0664873232485277,
+        "maximum_absolute_difference_pp": 7.891255043220302
+      },
+      "uxm/full": {
+        "estimates": 480,
+        "mean_absolute_difference_pp": 0.0,
+        "maximum_absolute_difference_pp": 0.0
+      },
+      "uxm/hematopoietic": {
+        "estimates": 84,
+        "mean_absolute_difference_pp": 0.0,
+        "maximum_absolute_difference_pp": 0.0
+      }
+    }
+  },
+  "saved_matrix_route": {
+    "entrypoint": "fragments.nf",
+    "inputs": "original UXM atlas, saved indexed PATs and full-atlas fragment matrices",
+    "fitting": "unchanged upstream UXM_DECONV and EPIDISH modules; native parameters",
+    "triplet_job": "6000453",
+    "bundle": "/path/to/hpc-scratch/tmp/em_seq/downstream/deconflow/2026-10-06_10-36-deconflow-fragments-all12-v3",
+    "status": "triplet, cached recovery and all12 cohort passed",
+    "recorded_utc": "2026-10-06T10:52:15+00:00",
+    "recovery_job": "6000471",
+    "cohort_job": "6000473",
+    "validation": "config/fragment_validation.json",
+    "comparison": {
+      "epidish": {
+        "estimates": 1440,
+        "maximum_absolute_difference_pp": 4.1849819659106,
+        "mean_absolute_difference_pp": 0.011841612753866344
+      },
+      "uxm": {
+        "estimates": 480,
+        "maximum_absolute_difference_pp": 0.0,
+        "mean_absolute_difference_pp": 0.0
+      }
+    }
+  }
+}
